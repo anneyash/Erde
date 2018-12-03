@@ -76,4 +76,5 @@ class VisaApplicationsController < ApplicationController
     def visa_application_params
       params.require(:visa_application).permit(:title, :body)
     end
+    
 end

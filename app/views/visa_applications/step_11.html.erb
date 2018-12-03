@@ -1,22 +1,15 @@
-<br>
-<br>
-
-<div class="progress" style="height: 1px;">
-  <div class="progress-bar" role="progressbar" style="width: 30%;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
-</div>
-<br>
-<div class="progress" style="height: 9px;">
-  <div class="progress-bar" role="progressbar" style="width: 30%;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+<div class="col-md-12 form-progress-bar">
+  <div class="progress" style="height: 1px;">
+    <div class="progress-bar" role="progressbar" style="width: 30%;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+  </div>
+  <div class="progress" style="height: 9px;">
+    <div class="progress-bar" role="progressbar" style="width: 30%;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+  </div>
 </div>
 
 
 <form>
-
-  <br>
-  <br>
-  <br>
-
-  <div>
+  <div class="col-md-12 form-group visa-applications-form">
     <h6>
       <strong>Marital Status</strong>
     </h6>
@@ -44,15 +37,13 @@
         <input type="checkbox" id="customCheckInline6" name="customCheckline6" class="custom-control-input">
         <label class="custom-control-label" for="customCheckInline6">Other (please specify)</label>
       </div>
-  <br>
-  <br>
+  </div>
+
+  <div class="form-group col-md-7 form-group visa-applications-form">
     <input type="textanswer" class="form-control" id="FormControlInput1" placeholder="Specify the marital status">
-</div>
+  </div>
 
-  <br>
-  <br>
-
-  <div class="form-group">
+  <div class="form-group col-md-7 form-group visa-applications-form">
     <h6>
       <strong>In the case of minors: Surname, first name, address</strong>
       <small class="text-muted">(if different from applicant's)</small>
@@ -61,22 +52,17 @@
     <input type="textanswer" class="form-control" id="FormControlInput1" placeholder="Type in surname, first name, address">
   </div>
 
-  <br>
-
-  <div class="form-group">
+  <div class="form-group col-md-7 form-group visa-applications-form">
     <h6>
       <strong>National identity number, where applicable</strong>
     </h6>
     <input type="textanswer" class="form-control" id="FormControlInput1" placeholder="Type in national identity number">
   </div>
 
-  <br>
-  <br>
-  <br>
-  <br>
-
+  <div class="col-md-7">
   <%= link_to 'Далее', visa_applications_path(:step => "12"), class: "btn btn-primary"%>
-  
+  </div>
+
   <br>
   <br>
   <br>

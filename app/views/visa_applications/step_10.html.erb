@@ -1,22 +1,15 @@
-<br>
-<br>
-
-<div class="progress" style="height: 1px;">
-  <div class="progress-bar" role="progressbar" style="width: 15%;" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
-</div>
-<br>
-<div class="progress" style="height: 9px;">
-  <div class="progress-bar" role="progressbar" style="width: 15%;" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+<div class="col-md-12 form-progress-bar">
+  <div class="progress" style="height: 1px;">
+    <div class="progress-bar" role="progressbar" style="width: 15%;" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+  </div>
+  <div class="progress" style="height: 9px;">
+    <div class="progress-bar" role="progressbar" style="width: 15%;" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+  </div>
 </div>
 
-
+<div class="col-md-7">
 <form>
-
-  <br>
-  <br>
-  <br>
-
-  <div class="form-group">
+  <div class="form-group visa-applications-form">
     <h6>
       <strong>Surname</strong>
       <small class="text-muted">(Family name)</small>
@@ -24,9 +17,7 @@
     <input type="textanswer" class="form-control" id="FormControlInput1" placeholder="Type in your surname">
   </div>
 
-  <br>
-
-  <div class="form-group">
+  <div class="form-group visa-applications-form">
     <h6>
       <strong>Surname at birth</strong>
       <small class="text-muted">(Former family name(s))</small>
@@ -34,9 +25,7 @@
     <input type="textanswer" class="form-control" id="FormControlInput1" placeholder="Type in surname at birth">
   </div>
 
-  <br>
-
-  <div class="form-group">
+  <div class="form-group visa-applications-form">
     <h6>
       <strong>First name(s)</strong>
       <small class="text-muted">(Given name(s))</small>
@@ -44,69 +33,40 @@
     <input type="textanswer" class="form-control" id="FormControlInput1" placeholder="Type in first surname(s)">
   </div>
 
-  <br>
-
-  <div class="form-group">
+  <div class="form-group visa-applications-form">
     <h6>
       <strong>Date of birth</strong>
     </h6>
-    <input type="textanswer" class="form-control" id="FormControlInput1" placeholder="__.__.____">
-  </div>
-
-
-<form>
-    $("#startdate_datepicker").datepicker();
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
-
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/css/bootstrap-datepicker.min.css" />
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/js/bootstrap-datepicker.min.js"></script>
-
-  <div class="dates">
-    <div class="start_date input-group mb-4">
-      <input class="form-control start_date" type="text" placeholder="__.__.____" id="startdate_datepicker">
-      <div class="input-group-append">
-        <span class="fa fa-calendar input-group-text start_date_calendar" aria-hidden="true "></span>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+    <div class="dates">
+      <div class="start_date input-group mb-4">
+        <input class="form-control start_date" type="date" id="startdate_datepicker">
       </div>
     </div>
   </div>
-</form>
 
-
-
-
-  <br>
-
-  <div class="form-group">
+  <div class="form-group visa-applications-form">
     <h6>
       <strong>Place of birth</strong>
     </h6>
     <input type="textanswer" class="form-control" id="FormControlInput1" placeholder="Type in the place of birth">
   </div>
 
-  <br>
-
-  <div class="form-group">
+  <div class="form-group visa-applications-form">
     <h6>
       <strong>Country of birth</strong>
     </h6>
     <input type="textanswer" class="form-control" id="FormControlInput1" placeholder="Type in the country of birth">
   </div>
 
-  <br>
-
-  <div class="form-group">
+  <div class="form-group visa-applications-form">
     <h6>
       <strong>Current nationality</strong>
     </h6>
     <input type="textanswer" class="form-control" id="FormControlInput1" placeholder="Type in the current nationality">
   </div>
 
-  <br>
-
-  <div class="form-group">
+  <div class="form-group visa-applications-form">
     <h6>
       <strong>Nationality at birth</strong>
       <small class="text-muted">(if different)</small>
@@ -114,9 +74,7 @@
     <input type="textanswer" class="form-control" id="FormControlInput1" placeholder="Type in the nationality at birth">
   </div>
 
-  <br>
-
-  <div class="form-group">
+  <div class="form-group visa-applications-form">
     <h6>
       <strong>Sex</strong>
     </h6>
@@ -146,3 +104,4 @@
   <br>
 
 </form>
+</div>
