@@ -4,7 +4,12 @@ class VisaApplicationsController < ApplicationController
   # GET /visa_applications
   # GET /visa_applications.json
   def index
-    @visa_applications = VisaApplication.all
+    if !params.has_key?(:step)
+      render "step_1"
+    else
+      step_number = params[:step]
+      render "step_%d" % [step_number]
+    end
   end
 
   # GET /visa_applications/1
