@@ -1,0 +1,88 @@
+<br>
+<br>
+
+<div class="progress" style="height: 1px;">
+  <div class="progress-bar" role="progressbar" style="width: 30%;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<br>
+<div class="progress" style="height: 9px;">
+  <div class="progress-bar" role="progressbar" style="width: 30%;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+
+
+<form>
+
+  <br>
+  <br>
+  <br>
+
+  <div>
+    <h6>
+      <strong>Marital Status</strong>
+    </h6>
+      <div class="custom-control custom-checkbox custom-control-inline">
+        <input type="checkbox" id="customCheckInline1" name="customCheckInline1" class="custom-control-input">
+        <label class="custom-control-label" for="customCheckInline1">Single</label>
+      </div>
+      <div class="custom-control custom-checkbox custom-control-inline">
+        <input type="checkbox" id="customCheckInline2" name="customCheckline2" class="custom-control-input">
+        <label class="custom-control-label" for="customCheckInline2">Married</label>
+      </div>
+      <div class="custom-control custom-checkbox custom-control-inline">
+        <input type="checkbox" id="customCheckInline3" name="customCheckline3" class="custom-control-input">
+        <label class="custom-control-label" for="customCheckInline3">Separated</label>
+      </div>
+      <div class="custom-control custom-checkbox custom-control-inline">
+        <input type="checkbox" id="customCheckInline4" name="customCheckInline4" class="custom-control-input">
+        <label class="custom-control-label" for="customCheckInline4">Divorced</label>
+      </div>
+      <div class="custom-control custom-checkbox custom-control-inline">
+        <input type="checkbox" id="customCheckInline5" name="customCheckline5" class="custom-control-input">
+        <label class="custom-control-label" for="customCheckInline5">Widow(er)</label>
+      </div>
+      <div class="custom-control custom-checkbox custom-control-inline">
+        <input type="checkbox" id="customCheckInline6" name="customCheckline6" class="custom-control-input">
+        <label class="custom-control-label" for="customCheckInline6">Other (please specify)</label>
+      </div>
+  <br>
+  <br>
+    <input type="textanswer" class="form-control" id="FormControlInput1" placeholder="Specify the marital status">
+</div>
+
+  <br>
+  <br>
+
+  <div class="form-group">
+    <h6>
+      <strong>In the case of minors: Surname, first name, address</strong>
+      <small class="text-muted">(if different from applicant's)</small>
+      <strong>and nationality of parental authority/legal guardian</strong>
+    </h6>
+    <input type="textanswer" class="form-control" id="FormControlInput1" placeholder="Type in surname, first name, address">
+  </div>
+
+  <br>
+
+  <div class="form-group">
+    <h6>
+      <strong>National identity number, where applicable</strong>
+    </h6>
+    <input type="textanswer" class="form-control" id="FormControlInput1" placeholder="Type in national identity number">
+  </div>
+
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <%= link_to 'Далее', visa_applications_path(:step => "12"), class: "btn btn-primary"%>
+  
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+</form>

@@ -3291,3 +3291,2194 @@ Processing by VisaApplicationsController#index as HTML
 Completed 200 OK in 64ms (Views: 63.0ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/visa_applications?step=1" for 127.0.0.1 at 2018-12-03 10:15:17 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"1"}
+  Rendering visa_applications/step_1.html.erb within layouts/application
+  Rendered visa_applications/step_1.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 170ms (Views: 163.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 10:15:18 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 204ms (Views: 202.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 10:17:56 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 62ms (Views: 61.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 10:18:15 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 63ms (Views: 62.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 10:18:33 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 59ms (Views: 58.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 10:18:54 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 56ms (Views: 54.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 10:19:02 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 56ms (Views: 55.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 10:19:12 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 61ms (Views: 60.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 10:19:21 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 64ms (Views: 63.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 10:19:32 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 82ms (Views: 81.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 10:19:42 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 67ms (Views: 65.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 10:21:18 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 62ms (Views: 60.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 10:22:13 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 63ms (Views: 61.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 10:22:25 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 73ms (Views: 72.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 10:23:00 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 69ms (Views: 67.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 10:23:08 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 69ms (Views: 68.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 10:23:19 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 63ms (Views: 62.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 10:25:15 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 69ms (Views: 68.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 10:40:41 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (19.4ms)
+Completed 200 OK in 202ms (Views: 190.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 10:41:02 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 90ms (Views: 88.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 10:49:09 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 96ms (Views: 93.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 10:57:17 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 217ms (Views: 203.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 11:00:01 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 166ms (Views: 163.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 11:01:14 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 138ms (Views: 132.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 11:14:26 +0300
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/anna/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 319ms (Views: 309.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 11:16:12 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 47ms (Views: 45.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 11:16:25 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 63ms (Views: 62.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 11:18:41 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 64ms (Views: 63.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 11:20:07 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 120ms (Views: 119.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 11:20:30 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 51ms (Views: 50.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 11:20:50 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 51ms (Views: 50.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 11:21:45 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 69ms (Views: 68.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 11:22:32 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 59ms (Views: 57.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 11:23:24 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 47ms (Views: 46.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 11:23:33 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 67ms (Views: 66.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 11:24:04 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 59ms (Views: 57.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 11:25:12 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 57ms (Views: 55.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 11:25:33 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 47ms (Views: 46.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=1" for 127.0.0.1 at 2018-12-03 11:25:41 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"1"}
+  Rendering visa_applications/step_1.html.erb within layouts/application
+  Rendered visa_applications/step_1.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 48ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 11:26:17 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 56ms (Views: 54.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 11:28:27 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 70ms (Views: 68.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 11:30:06 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 56ms (Views: 54.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 11:30:31 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 90ms (Views: 89.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 11:31:44 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 46ms (Views: 45.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 11:32:45 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 50ms (Views: 48.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 11:35:09 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 56ms (Views: 55.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 11:38:09 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 114ms (Views: 113.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=11" for 127.0.0.1 at 2018-12-03 11:38:11 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"11"}
+  Rendering visa_applications/step_11.html.erb within layouts/application
+  Rendered visa_applications/step_11.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 56ms (Views: 54.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=1" for 127.0.0.1 at 2018-12-03 11:38:28 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"1"}
+  Rendering visa_applications/step_1.html.erb within layouts/application
+  Rendered visa_applications/step_1.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 50ms (Views: 49.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=2" for 127.0.0.1 at 2018-12-03 11:38:30 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"2"}
+  Rendering visa_applications/step_2.html.erb within layouts/application
+  Rendered visa_applications/step_2.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 55ms (Views: 54.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=1" for 127.0.0.1 at 2018-12-03 11:38:38 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"1"}
+  Rendering visa_applications/step_1.html.erb within layouts/application
+  Rendered visa_applications/step_1.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 54ms (Views: 53.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 11:38:39 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 54ms (Views: 52.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 11:39:04 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 62ms (Views: 61.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 11:39:12 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 51ms (Views: 50.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=11" for 127.0.0.1 at 2018-12-03 11:39:29 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"11"}
+  Rendering visa_applications/step_11.html.erb within layouts/application
+  Rendered visa_applications/step_11.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 57ms (Views: 56.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=11" for 127.0.0.1 at 2018-12-03 11:40:20 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"11"}
+  Rendering visa_applications/step_11.html.erb within layouts/application
+  Rendered visa_applications/step_11.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 47ms (Views: 46.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=11" for 127.0.0.1 at 2018-12-03 11:40:29 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"11"}
+  Rendering visa_applications/step_11.html.erb within layouts/application
+  Rendered visa_applications/step_11.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 53ms (Views: 52.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=2" for 127.0.0.1 at 2018-12-03 11:42:19 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"2"}
+  Rendering visa_applications/step_2.html.erb within layouts/application
+  Rendered visa_applications/step_2.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 188ms (Views: 172.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=11" for 127.0.0.1 at 2018-12-03 11:42:28 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"11"}
+  Rendering visa_applications/step_11.html.erb within layouts/application
+  Rendered visa_applications/step_11.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 132ms (Views: 130.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=11" for 127.0.0.1 at 2018-12-03 11:45:28 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"11"}
+  Rendering visa_applications/step_11.html.erb within layouts/application
+  Rendered visa_applications/step_11.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 77ms (Views: 76.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=11" for 127.0.0.1 at 2018-12-03 11:45:47 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"11"}
+  Rendering visa_applications/step_11.html.erb within layouts/application
+  Rendered visa_applications/step_11.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 71ms (Views: 69.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=11" for 127.0.0.1 at 2018-12-03 11:48:19 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"11"}
+  Rendering visa_applications/step_11.html.erb within layouts/application
+  Rendered visa_applications/step_11.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 70ms (Views: 69.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=11" for 127.0.0.1 at 2018-12-03 11:51:36 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"11"}
+  Rendering visa_applications/step_11.html.erb within layouts/application
+  Rendered visa_applications/step_11.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 78ms (Views: 76.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=11" for 127.0.0.1 at 2018-12-03 11:53:10 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"11"}
+  Rendering visa_applications/step_11.html.erb within layouts/application
+  Rendered visa_applications/step_11.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 80ms (Views: 79.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=210" for 127.0.0.1 at 2018-12-03 11:53:23 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"210"}
+Completed 500 Internal Server Error in 33ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::MissingTemplate (Missing template visa_applications/step_210, application/step_210 with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/anna/Project/Erde/app/views"
+):
+  
+app/controllers/visa_applications_controller.rb:11:in `index'
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 11:53:27 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 70ms (Views: 68.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=11" for 127.0.0.1 at 2018-12-03 11:53:30 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"11"}
+  Rendering visa_applications/step_11.html.erb within layouts/application
+  Rendered visa_applications/step_11.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 67ms (Views: 66.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=12" for 127.0.0.1 at 2018-12-03 11:53:32 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"12"}
+  Rendering visa_applications/step_12.html.erb within layouts/application
+  Rendered visa_applications/step_12.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 65ms (Views: 64.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 11:56:05 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 63ms (Views: 62.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=11" for 127.0.0.1 at 2018-12-03 11:56:08 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"11"}
+  Rendering visa_applications/step_11.html.erb within layouts/application
+  Rendered visa_applications/step_11.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 49ms (Views: 48.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=12" for 127.0.0.1 at 2018-12-03 11:56:10 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"12"}
+  Rendering visa_applications/step_12.html.erb within layouts/application
+  Rendered visa_applications/step_12.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 58ms (Views: 57.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=13" for 127.0.0.1 at 2018-12-03 11:56:12 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"13"}
+  Rendering visa_applications/step_13.html.erb within layouts/application
+  Rendered visa_applications/step_13.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 57ms (Views: 56.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=14" for 127.0.0.1 at 2018-12-03 11:56:13 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"14"}
+  Rendering visa_applications/step_14.html.erb within layouts/application
+  Rendered visa_applications/step_14.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 65ms (Views: 63.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=15" for 127.0.0.1 at 2018-12-03 11:56:14 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"15"}
+  Rendering visa_applications/step_15.html.erb within layouts/application
+  Rendered visa_applications/step_15.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 69ms (Views: 68.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=16" for 127.0.0.1 at 2018-12-03 11:56:15 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"16"}
+  Rendering visa_applications/step_16.html.erb within layouts/application
+  Rendered visa_applications/step_16.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 68ms (Views: 67.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=16" for 127.0.0.1 at 2018-12-03 11:56:18 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"16"}
+  Rendering visa_applications/step_16.html.erb within layouts/application
+  Rendered visa_applications/step_16.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 64ms (Views: 63.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 11:56:23 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 61ms (Views: 59.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=11" for 127.0.0.1 at 2018-12-03 11:56:26 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"11"}
+  Rendering visa_applications/step_11.html.erb within layouts/application
+  Rendered visa_applications/step_11.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 49ms (Views: 48.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=12" for 127.0.0.1 at 2018-12-03 11:56:28 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"12"}
+  Rendering visa_applications/step_12.html.erb within layouts/application
+  Rendered visa_applications/step_12.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 67ms (Views: 65.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=12" for 127.0.0.1 at 2018-12-03 12:00:55 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"12"}
+  Rendering visa_applications/step_12.html.erb within layouts/application
+  Rendered visa_applications/step_12.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 67ms (Views: 66.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=12" for 127.0.0.1 at 2018-12-03 12:02:40 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"12"}
+  Rendering visa_applications/step_12.html.erb within layouts/application
+  Rendered visa_applications/step_12.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 59ms (Views: 57.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=13" for 127.0.0.1 at 2018-12-03 12:02:43 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"13"}
+  Rendering visa_applications/step_13.html.erb within layouts/application
+  Rendered visa_applications/step_13.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 85ms (Views: 83.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=13" for 127.0.0.1 at 2018-12-03 12:08:36 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"13"}
+  Rendering visa_applications/step_13.html.erb within layouts/application
+  Rendered visa_applications/step_13.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 60ms (Views: 58.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=12" for 127.0.0.1 at 2018-12-03 12:09:26 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"12"}
+  Rendering visa_applications/step_12.html.erb within layouts/application
+  Rendered visa_applications/step_12.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 145ms (Views: 143.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=13" for 127.0.0.1 at 2018-12-03 12:09:35 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"13"}
+  Rendering visa_applications/step_13.html.erb within layouts/application
+  Rendered visa_applications/step_13.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 134ms (Views: 132.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=12" for 127.0.0.1 at 2018-12-03 12:10:28 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"12"}
+  Rendering visa_applications/step_12.html.erb within layouts/application
+  Rendered visa_applications/step_12.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 65ms (Views: 64.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=13" for 127.0.0.1 at 2018-12-03 12:15:05 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"13"}
+  Rendering visa_applications/step_13.html.erb within layouts/application
+  Rendered visa_applications/step_13.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 109ms (Views: 107.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 12:15:24 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 51ms (Views: 50.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=11" for 127.0.0.1 at 2018-12-03 12:15:28 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"11"}
+  Rendering visa_applications/step_11.html.erb within layouts/application
+  Rendered visa_applications/step_11.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 72ms (Views: 71.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=1" for 127.0.0.1 at 2018-12-03 12:15:31 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"1"}
+  Rendering visa_applications/step_1.html.erb within layouts/application
+  Rendered visa_applications/step_1.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 63ms (Views: 62.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=2" for 127.0.0.1 at 2018-12-03 12:15:33 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"2"}
+  Rendering visa_applications/step_2.html.erb within layouts/application
+  Rendered visa_applications/step_2.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 65ms (Views: 63.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=13" for 127.0.0.1 at 2018-12-03 12:16:29 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"13"}
+  Rendering visa_applications/step_13.html.erb within layouts/application
+  Rendered visa_applications/step_13.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 70ms (Views: 69.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=13" for 127.0.0.1 at 2018-12-03 12:17:24 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"13"}
+  Rendering visa_applications/step_13.html.erb within layouts/application
+  Rendered visa_applications/step_13.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 60ms (Views: 58.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=13" for 127.0.0.1 at 2018-12-03 12:18:52 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"13"}
+  Rendering visa_applications/step_13.html.erb within layouts/application
+  Rendered visa_applications/step_13.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 51ms (Views: 50.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=13" for 127.0.0.1 at 2018-12-03 12:19:08 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"13"}
+  Rendering visa_applications/step_13.html.erb within layouts/application
+  Rendered visa_applications/step_13.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 63ms (Views: 62.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=13" for 127.0.0.1 at 2018-12-03 12:19:35 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"13"}
+  Rendering visa_applications/step_13.html.erb within layouts/application
+  Rendered visa_applications/step_13.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 78ms (Views: 77.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=14" for 127.0.0.1 at 2018-12-03 12:20:14 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"14"}
+  Rendering visa_applications/step_14.html.erb within layouts/application
+  Rendered visa_applications/step_14.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 66ms (Views: 65.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=15" for 127.0.0.1 at 2018-12-03 12:22:04 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"15"}
+  Rendering visa_applications/step_15.html.erb within layouts/application
+  Rendered visa_applications/step_15.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 68ms (Views: 66.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=16" for 127.0.0.1 at 2018-12-03 12:22:06 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"16"}
+  Rendering visa_applications/step_16.html.erb within layouts/application
+  Rendered visa_applications/step_16.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 69ms (Views: 68.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=14" for 127.0.0.1 at 2018-12-03 12:22:13 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"14"}
+  Rendering visa_applications/step_14.html.erb within layouts/application
+  Rendered visa_applications/step_14.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 50ms (Views: 49.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=15" for 127.0.0.1 at 2018-12-03 12:22:14 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"15"}
+  Rendering visa_applications/step_15.html.erb within layouts/application
+  Rendered visa_applications/step_15.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 53ms (Views: 52.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 12:22:24 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 41ms (Views: 40.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=11" for 127.0.0.1 at 2018-12-03 12:22:27 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"11"}
+  Rendering visa_applications/step_11.html.erb within layouts/application
+  Rendered visa_applications/step_11.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 71ms (Views: 70.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=12" for 127.0.0.1 at 2018-12-03 12:22:29 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"12"}
+  Rendering visa_applications/step_12.html.erb within layouts/application
+  Rendered visa_applications/step_12.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 68ms (Views: 67.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=13" for 127.0.0.1 at 2018-12-03 12:22:30 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"13"}
+  Rendering visa_applications/step_13.html.erb within layouts/application
+  Rendered visa_applications/step_13.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 57ms (Views: 56.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=14" for 127.0.0.1 at 2018-12-03 12:22:32 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"14"}
+  Rendering visa_applications/step_14.html.erb within layouts/application
+  Rendered visa_applications/step_14.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 78ms (Views: 76.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=15" for 127.0.0.1 at 2018-12-03 12:22:34 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"15"}
+  Rendering visa_applications/step_15.html.erb within layouts/application
+  Rendered visa_applications/step_15.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 52ms (Views: 51.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=16" for 127.0.0.1 at 2018-12-03 12:22:35 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"16"}
+  Rendering visa_applications/step_16.html.erb within layouts/application
+  Rendered visa_applications/step_16.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 65ms (Views: 63.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 12:22:57 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 73ms (Views: 71.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/countries" for 127.0.0.1 at 2018-12-03 12:24:41 +0300
+Processing by CountriesController#index as HTML
+  Rendering countries/index.html.erb within layouts/application
+  [1m[36mCountry Load (1.0ms)[0m  [1m[34mSELECT "countries".* FROM "countries"[0m
+  ↳ app/views/countries/index.html.erb:15
+  Rendered countries/index.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 87ms (Views: 70.8ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 12:48:36 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 171ms (Views: 162.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 12:49:03 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 145ms (Views: 143.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 12:50:37 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 64ms (Views: 63.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 12:50:47 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 53ms (Views: 51.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 12:51:03 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 78ms (Views: 77.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 12:52:32 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 69ms (Views: 67.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 12:53:03 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 56ms (Views: 54.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 12:54:42 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 67ms (Views: 65.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 12:56:15 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 179ms (Views: 167.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 12:57:03 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 106ms (Views: 105.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 12:59:14 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 101ms (Views: 99.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 13:01:55 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 128ms (Views: 127.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 13:04:02 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 114ms (Views: 112.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 13:05:37 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 54ms (Views: 52.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 13:05:54 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 54ms (Views: 53.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 13:11:48 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 64ms (Views: 63.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 13:11:57 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 121ms (Views: 120.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 13:12:06 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 55ms (Views: 54.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 13:12:15 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 62ms (Views: 61.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 13:12:37 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 56ms (Views: 55.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 13:12:43 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 112ms (Views: 111.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 13:12:48 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 85ms (Views: 84.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 13:12:53 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 61ms (Views: 59.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 13:12:57 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 43ms (Views: 42.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 13:13:03 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 50ms (Views: 49.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 13:13:10 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 56ms (Views: 55.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 13:13:20 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 74ms (Views: 73.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 13:13:26 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 66ms (Views: 65.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 13:13:31 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 67ms (Views: 66.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 13:13:36 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 44ms (Views: 43.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 13:13:41 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 56ms (Views: 55.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 13:13:47 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 55ms (Views: 54.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 13:13:52 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 63ms (Views: 62.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 13:14:39 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 49ms (Views: 48.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 13:18:14 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 75ms (Views: 74.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 13:18:28 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 88ms (Views: 86.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 13:18:39 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 119ms (Views: 116.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 13:18:52 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 57ms (Views: 56.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 13:19:37 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 87ms (Views: 86.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 13:19:46 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 77ms (Views: 76.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 13:20:09 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 73ms (Views: 71.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 13:20:15 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 58ms (Views: 56.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 13:20:24 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 53ms (Views: 52.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 13:21:48 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 42ms (Views: 41.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 13:21:58 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 54ms (Views: 53.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 13:22:11 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 60ms (Views: 59.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 13:22:53 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 71ms (Views: 69.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 13:23:35 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 53ms (Views: 52.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 13:24:42 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 93ms (Views: 92.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 13:27:04 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 125ms (Views: 123.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 13:41:26 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 164ms (Views: 162.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 13:45:47 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 180ms (Views: 172.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 13:46:21 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 126ms (Views: 123.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 13:46:29 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 76ms (Views: 75.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 13:46:51 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 162ms (Views: 159.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 13:47:08 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 63ms (Views: 61.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 13:48:16 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 51ms (Views: 49.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 13:48:36 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 53ms (Views: 52.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 13:48:44 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 75ms (Views: 74.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 13:49:19 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 86ms (Views: 84.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 13:49:32 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 55ms (Views: 54.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 13:49:54 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 54ms (Views: 52.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 13:50:12 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 68ms (Views: 66.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=11" for 127.0.0.1 at 2018-12-03 13:50:30 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"11"}
+  Rendering visa_applications/step_11.html.erb within layouts/application
+  Rendered visa_applications/step_11.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 64ms (Views: 63.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 13:51:18 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 58ms (Views: 57.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 13:51:54 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 56ms (Views: 55.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 13:52:03 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 51ms (Views: 50.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 14:00:35 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 74ms (Views: 72.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 14:02:00 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 65ms (Views: 64.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 14:02:11 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 50ms (Views: 49.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 14:02:22 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 58ms (Views: 57.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 14:02:29 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 61ms (Views: 60.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 14:11:48 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 166ms (Views: 158.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 14:14:30 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 301ms (Views: 297.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 14:15:15 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 126ms (Views: 119.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 14:16:39 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 70ms (Views: 68.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 14:16:47 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 77ms (Views: 76.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 14:16:59 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 80ms (Views: 76.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 14:17:10 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 67ms (Views: 66.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 14:17:22 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 78ms (Views: 77.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 14:17:38 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 56ms (Views: 55.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=11" for 127.0.0.1 at 2018-12-03 14:20:06 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"11"}
+  Rendering visa_applications/step_11.html.erb within layouts/application
+  Rendered visa_applications/step_11.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 245ms (Views: 236.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 14:28:29 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 165ms (Views: 156.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 14:29:04 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 83ms (Views: 81.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 14:42:40 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 159ms (Views: 149.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 14:43:24 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 103ms (Views: 101.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 14:44:24 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 135ms (Views: 133.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 14:45:04 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 57ms (Views: 55.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 14:45:58 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 57ms (Views: 55.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 14:46:17 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 54ms (Views: 53.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 14:46:34 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 67ms (Views: 66.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 14:47:33 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 131ms (Views: 129.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 14:47:43 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 54ms (Views: 52.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=11" for 127.0.0.1 at 2018-12-03 14:47:56 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"11"}
+  Rendering visa_applications/step_11.html.erb within layouts/application
+  Rendered visa_applications/step_11.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 85ms (Views: 84.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 14:48:19 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 64ms (Views: 63.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 14:49:03 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 50ms (Views: 49.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 14:49:31 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 53ms (Views: 52.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 14:50:09 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 52ms (Views: 51.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 14:52:31 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 141ms (Views: 133.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 14:53:22 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 67ms (Views: 65.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 14:56:33 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 142ms (Views: 141.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 14:56:42 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 71ms (Views: 69.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 14:57:10 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 67ms (Views: 65.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 14:57:37 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 72ms (Views: 71.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 14:59:43 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 61ms (Views: 59.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 15:01:43 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 87ms (Views: 85.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 15:02:05 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 53ms (Views: 52.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 15:02:18 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 118ms (Views: 117.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 15:02:31 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 56ms (Views: 55.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 15:02:42 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 49ms (Views: 48.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 15:02:57 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 55ms (Views: 53.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 15:03:14 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 74ms (Views: 72.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 15:04:05 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 62ms (Views: 61.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=11" for 127.0.0.1 at 2018-12-03 15:07:55 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"11"}
+  Rendering visa_applications/step_11.html.erb within layouts/application
+  Rendered visa_applications/step_11.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 57ms (Views: 56.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=11" for 127.0.0.1 at 2018-12-03 15:08:08 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"11"}
+  Rendering visa_applications/step_11.html.erb within layouts/application
+  Rendered visa_applications/step_11.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 62ms (Views: 61.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=11" for 127.0.0.1 at 2018-12-03 15:08:38 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"11"}
+  Rendering visa_applications/step_11.html.erb within layouts/application
+  Rendered visa_applications/step_11.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 70ms (Views: 68.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=11" for 127.0.0.1 at 2018-12-03 15:08:53 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"11"}
+  Rendering visa_applications/step_11.html.erb within layouts/application
+  Rendered visa_applications/step_11.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 55ms (Views: 53.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=11" for 127.0.0.1 at 2018-12-03 15:09:06 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"11"}
+  Rendering visa_applications/step_11.html.erb within layouts/application
+  Rendered visa_applications/step_11.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 58ms (Views: 57.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=11" for 127.0.0.1 at 2018-12-03 15:09:29 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"11"}
+  Rendering visa_applications/step_11.html.erb within layouts/application
+  Rendered visa_applications/step_11.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 62ms (Views: 61.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=11" for 127.0.0.1 at 2018-12-03 15:10:16 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"11"}
+  Rendering visa_applications/step_11.html.erb within layouts/application
+  Rendered visa_applications/step_11.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 75ms (Views: 73.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=11" for 127.0.0.1 at 2018-12-03 15:12:13 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"11"}
+  Rendering visa_applications/step_11.html.erb within layouts/application
+  Rendered visa_applications/step_11.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 62ms (Views: 61.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=11" for 127.0.0.1 at 2018-12-03 15:12:15 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"11"}
+  Rendering visa_applications/step_11.html.erb within layouts/application
+  Rendered visa_applications/step_11.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 58ms (Views: 57.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=11" for 127.0.0.1 at 2018-12-03 15:12:37 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"11"}
+  Rendering visa_applications/step_11.html.erb within layouts/application
+  Rendered visa_applications/step_11.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 52ms (Views: 51.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=11" for 127.0.0.1 at 2018-12-03 15:12:48 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"11"}
+  Rendering visa_applications/step_11.html.erb within layouts/application
+  Rendered visa_applications/step_11.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 61ms (Views: 60.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=11" for 127.0.0.1 at 2018-12-03 15:12:57 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"11"}
+  Rendering visa_applications/step_11.html.erb within layouts/application
+  Rendered visa_applications/step_11.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 53ms (Views: 51.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=11" for 127.0.0.1 at 2018-12-03 15:13:06 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"11"}
+  Rendering visa_applications/step_11.html.erb within layouts/application
+  Rendered visa_applications/step_11.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 92ms (Views: 90.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=11" for 127.0.0.1 at 2018-12-03 15:13:21 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"11"}
+  Rendering visa_applications/step_11.html.erb within layouts/application
+  Rendered visa_applications/step_11.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 54ms (Views: 53.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=11" for 127.0.0.1 at 2018-12-03 15:13:30 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"11"}
+  Rendering visa_applications/step_11.html.erb within layouts/application
+  Rendered visa_applications/step_11.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 57ms (Views: 56.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=11" for 127.0.0.1 at 2018-12-03 15:17:27 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"11"}
+  Rendering visa_applications/step_11.html.erb within layouts/application
+  Rendered visa_applications/step_11.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 163ms (Views: 155.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=11" for 127.0.0.1 at 2018-12-03 15:18:28 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"11"}
+  Rendering visa_applications/step_11.html.erb within layouts/application
+  Rendered visa_applications/step_11.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 84ms (Views: 82.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 15:18:34 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 102ms (Views: 101.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=11" for 127.0.0.1 at 2018-12-03 15:18:38 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"11"}
+  Rendering visa_applications/step_11.html.erb within layouts/application
+  Rendered visa_applications/step_11.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 150ms (Views: 149.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=11" for 127.0.0.1 at 2018-12-03 15:19:41 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"11"}
+  Rendering visa_applications/step_11.html.erb within layouts/application
+  Rendered visa_applications/step_11.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 57ms (Views: 56.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=11" for 127.0.0.1 at 2018-12-03 15:20:19 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"11"}
+  Rendering visa_applications/step_11.html.erb within layouts/application
+  Rendered visa_applications/step_11.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 58ms (Views: 57.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=11" for 127.0.0.1 at 2018-12-03 15:20:47 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"11"}
+  Rendering visa_applications/step_11.html.erb within layouts/application
+  Rendered visa_applications/step_11.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 54ms (Views: 52.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=12" for 127.0.0.1 at 2018-12-03 15:21:16 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"12"}
+  Rendering visa_applications/step_12.html.erb within layouts/application
+  Rendered visa_applications/step_12.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 74ms (Views: 73.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=12" for 127.0.0.1 at 2018-12-03 15:23:27 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"12"}
+  Rendering visa_applications/step_12.html.erb within layouts/application
+  Rendered visa_applications/step_12.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 169ms (Views: 156.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=12" for 127.0.0.1 at 2018-12-03 15:24:21 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"12"}
+  Rendering visa_applications/step_12.html.erb within layouts/application
+  Rendered visa_applications/step_12.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 72ms (Views: 69.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=12" for 127.0.0.1 at 2018-12-03 15:27:10 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"12"}
+  Rendering visa_applications/step_12.html.erb within layouts/application
+  Rendered visa_applications/step_12.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 139ms (Views: 137.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=10" for 127.0.0.1 at 2018-12-03 15:27:39 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"10"}
+  Rendering visa_applications/step_10.html.erb within layouts/application
+  Rendered visa_applications/step_10.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 71ms (Views: 69.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=11" for 127.0.0.1 at 2018-12-03 15:28:06 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"11"}
+  Rendering visa_applications/step_11.html.erb within layouts/application
+  Rendered visa_applications/step_11.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 68ms (Views: 67.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=12" for 127.0.0.1 at 2018-12-03 15:28:09 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"12"}
+  Rendering visa_applications/step_12.html.erb within layouts/application
+  Rendered visa_applications/step_12.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 86ms (Views: 84.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=12" for 127.0.0.1 at 2018-12-03 15:28:52 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"12"}
+  Rendering visa_applications/step_12.html.erb within layouts/application
+  Rendered visa_applications/step_12.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 131ms (Views: 130.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=12" for 127.0.0.1 at 2018-12-03 15:30:46 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"12"}
+  Rendering visa_applications/step_12.html.erb within layouts/application
+  Rendered visa_applications/step_12.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 64ms (Views: 62.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=13" for 127.0.0.1 at 2018-12-03 15:31:26 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"13"}
+  Rendering visa_applications/step_13.html.erb within layouts/application
+  Rendered visa_applications/step_13.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 102ms (Views: 101.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=14" for 127.0.0.1 at 2018-12-03 15:31:29 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"14"}
+  Rendering visa_applications/step_14.html.erb within layouts/application
+  Rendered visa_applications/step_14.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 99ms (Views: 98.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=13" for 127.0.0.1 at 2018-12-03 15:32:28 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"13"}
+  Rendering visa_applications/step_13.html.erb within layouts/application
+  Rendered visa_applications/step_13.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 97ms (Views: 95.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=13" for 127.0.0.1 at 2018-12-03 15:35:27 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"13"}
+  Rendering visa_applications/step_13.html.erb within layouts/application
+  Rendered visa_applications/step_13.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 239ms (Views: 226.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=13" for 127.0.0.1 at 2018-12-03 15:35:54 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"13"}
+  Rendering visa_applications/step_13.html.erb within layouts/application
+  Rendered visa_applications/step_13.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 63ms (Views: 61.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=13" for 127.0.0.1 at 2018-12-03 15:37:10 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"13"}
+  Rendering visa_applications/step_13.html.erb within layouts/application
+  Rendered visa_applications/step_13.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 71ms (Views: 69.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=13" for 127.0.0.1 at 2018-12-03 15:38:55 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"13"}
+  Rendering visa_applications/step_13.html.erb within layouts/application
+  Rendered visa_applications/step_13.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 140ms (Views: 138.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=13" for 127.0.0.1 at 2018-12-03 15:39:23 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"13"}
+  Rendering visa_applications/step_13.html.erb within layouts/application
+  Rendered visa_applications/step_13.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 62ms (Views: 61.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=12" for 127.0.0.1 at 2018-12-03 15:39:32 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"12"}
+  Rendering visa_applications/step_12.html.erb within layouts/application
+  Rendered visa_applications/step_12.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 67ms (Views: 64.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=11" for 127.0.0.1 at 2018-12-03 15:39:38 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"11"}
+  Rendering visa_applications/step_11.html.erb within layouts/application
+  Rendered visa_applications/step_11.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 78ms (Views: 76.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=12" for 127.0.0.1 at 2018-12-03 15:39:53 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"12"}
+  Rendering visa_applications/step_12.html.erb within layouts/application
+  Rendered visa_applications/step_12.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 50ms (Views: 49.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=13" for 127.0.0.1 at 2018-12-03 15:39:56 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"13"}
+  Rendering visa_applications/step_13.html.erb within layouts/application
+  Rendered visa_applications/step_13.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 52ms (Views: 51.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=14" for 127.0.0.1 at 2018-12-03 15:39:58 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"14"}
+  Rendering visa_applications/step_14.html.erb within layouts/application
+  Rendered visa_applications/step_14.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 58ms (Views: 57.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=16" for 127.0.0.1 at 2018-12-03 15:40:26 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"16"}
+  Rendering visa_applications/step_16.html.erb within layouts/application
+  Rendered visa_applications/step_16.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 59ms (Views: 58.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=13" for 127.0.0.1 at 2018-12-03 15:42:12 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"13"}
+  Rendering visa_applications/step_13.html.erb within layouts/application
+  Rendered visa_applications/step_13.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 91ms (Views: 89.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=14" for 127.0.0.1 at 2018-12-03 15:42:15 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"14"}
+  Rendering visa_applications/step_14.html.erb within layouts/application
+  Rendered visa_applications/step_14.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 67ms (Views: 65.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=15" for 127.0.0.1 at 2018-12-03 15:42:18 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"15"}
+  Rendering visa_applications/step_15.html.erb within layouts/application
+  Rendered visa_applications/step_15.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 70ms (Views: 69.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=16" for 127.0.0.1 at 2018-12-03 15:42:21 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"16"}
+  Rendering visa_applications/step_16.html.erb within layouts/application
+  Rendered visa_applications/step_16.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 87ms (Views: 85.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visa_applications?step=16" for 127.0.0.1 at 2018-12-03 15:42:53 +0300
+Processing by VisaApplicationsController#index as HTML
+  Parameters: {"step"=>"16"}
+  Rendering visa_applications/step_16.html.erb within layouts/application
+  Rendered visa_applications/step_16.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 60ms (Views: 58.9ms | ActiveRecord: 0.0ms)
+
+
