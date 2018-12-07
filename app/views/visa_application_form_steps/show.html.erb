@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Visa application form:</strong>
+  <%= @visa_application_form_step.visa_application_form_id %>
+</p>
+
+<p>
+  <strong>Step:</strong>
+  <%= @visa_application_form_step.step_id %>
+</p>
+
+<p>
+  <strong>Position:</strong>
+  <%= @visa_application_form_step.position %>
+</p>
+
+<%= link_to 'Edit', edit_visa_application_form_step_path(@visa_application_form_step) %> |
+<%= link_to 'Back', visa_application_form_steps_path %>

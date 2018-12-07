@@ -29,7 +29,17 @@ class VisaApplicationsController < ApplicationController
   # POST /visa_applications
   # POST /visa_applications.json
   def create
+    logger.debug 'TEST'
+    logger.debug params
+
+    params.each do |p|
+      logger.debug p[0]
+      # question_answer_\d+
+      # \d+(?!.*\d)
+    end
+
     @visa_application = VisaApplication.new(visa_application_params)
+
 
     respond_to do |format|
       if @visa_application.save
@@ -76,5 +86,5 @@ class VisaApplicationsController < ApplicationController
     def visa_application_params
       params.require(:visa_application).permit(:title, :body)
     end
-    
+
 end

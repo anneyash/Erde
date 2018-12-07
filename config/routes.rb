@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  resources :visa_application_forms
+  resources :steps
+  resources :visa_application_form_steps
+  resources :step_questions
   resources :navbars
   resources :landings
   resources :visa_applications
