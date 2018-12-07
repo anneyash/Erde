@@ -1,0 +1,33 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Visa App Ones</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Q1</th>
+      <th>Q2</th>
+      <th>Q3</th>
+      <th>Q4</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @visa_app_ones.each do |visa_app_one| %>
+      <tr>
+        <td><%= visa_app_one.q1 %></td>
+        <td><%= visa_app_one.q2 %></td>
+        <td><%= visa_app_one.q3 %></td>
+        <td><%= visa_app_one.q4 %></td>
+        <td><%= link_to 'Show', visa_app_one %></td>
+        <td><%= link_to 'Edit', edit_visa_app_one_path(visa_app_one) %></td>
+        <td><%= link_to 'Destroy', visa_app_one, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Visa App One', new_visa_app_one_path %>

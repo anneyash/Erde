@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_11_25_212429) do
+ActiveRecord::Schema.define(version: 2018_12_07_081524) do
 
   create_table "answers", force: :cascade do |t|
     t.string "title"
@@ -64,6 +64,15 @@ ActiveRecord::Schema.define(version: 2018_11_25_212429) do
   create_table "users", force: :cascade do |t|
     t.string "title"
     t.text "body"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "visa_app_ones", force: :cascade do |t|
+    t.string "q1"
+    t.string "q2"
+    t.text "q3"
+    t.string "q4"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

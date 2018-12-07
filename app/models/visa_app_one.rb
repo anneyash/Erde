@@ -1,0 +1,2 @@
+class VisaAppOne < ApplicationRecord
+end

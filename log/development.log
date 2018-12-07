@@ -7185,3 +7185,563 @@ Processing by VisaApplicationsController#index as HTML
 Completed 200 OK in 26ms (Views: 25.8ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/visa_app" for 127.0.0.1 at 2018-12-07 11:15:49 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/zakharday/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.2.1) lib/active_record/migration.rb:579:in `check_pending!'
+activerecord (5.2.1) lib/active_record/migration.rb:556:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rake:9
+Migrating to CreateVisaAppOnes (20181207081524)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rake:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ db/migrate/20181207081524_create_visa_app_ones.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "visa_app_ones" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "q1" varchar, "q2" varchar, "q3" text, "q4" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20181207081524_create_visa_app_ones.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20181207081524"]]
+  ↳ bin/rake:9
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rake:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rake:9
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rake:9
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rake:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rake:9
+Started GET "/visa_app" for 127.0.0.1 at 2018-12-07 11:16:00 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/zakharday/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  
+ActionController::RoutingError (No route matches [GET] "/visa_app"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/visa_apps" for 127.0.0.1 at 2018-12-07 11:16:04 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/visa_apps"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/visa_app_ones" for 127.0.0.1 at 2018-12-07 11:16:10 +0300
+Processing by VisaAppOnesController#index as HTML
+  Rendering visa_app_ones/index.html.erb within layouts/application
+  [1m[36mVisaAppOne Load (0.2ms)[0m  [1m[34mSELECT "visa_app_ones".* FROM "visa_app_ones"[0m
+  ↳ app/views/visa_app_ones/index.html.erb:17
+  Rendered visa_app_ones/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 4164ms (Views: 4159.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/visa_app_ones/new" for 127.0.0.1 at 2018-12-07 11:16:17 +0300
+Processing by VisaAppOnesController#new as HTML
+  Rendering visa_app_ones/new.html.erb within layouts/application
+  Rendered visa_app_ones/_form.html.erb (15.1ms)
+  Rendered visa_app_ones/new.html.erb within layouts/application (18.0ms)
+Completed 200 OK in 65ms (Views: 51.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/visa_app_ones/new" for 127.0.0.1 at 2018-12-07 11:20:21 +0300
+Processing by VisaAppOnesController#new as HTML
+  Rendering visa_app_ones/new.html.erb within layouts/application
+  Rendered visa_app_ones/_form_step_1.html.erb (1.8ms)
+  Rendered visa_app_ones/new.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 42ms (Views: 33.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/visa_app_ones/new" for 127.0.0.1 at 2018-12-07 11:20:46 +0300
+Processing by VisaAppOnesController#new as HTML
+  Rendering visa_app_ones/new.html.erb within layouts/application
+  Rendered visa_app_ones/_form_step_1.html.erb (1.1ms)
+  Rendered visa_app_ones/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 34ms (Views: 32.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/visa_app_ones" for 127.0.0.1 at 2018-12-07 11:20:56 +0300
+Processing by VisaAppOnesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BfKZ50b3bEfSVrZQEGV2RV0Z4xHeNLy3ERQqplW+6Hi5X2y2P8MaVcIbpL6zKpvu264TF1ECwgu/T7pcZBB6TQ==", "visa_app_one"=>{"q1"=>"sdfghjk"}, "commit"=>"Далее"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/visa_app_ones_controller.rb:30
+  [1m[36mVisaAppOne Create (0.4ms)[0m  [1m[32mINSERT INTO "visa_app_ones" ("q1", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["q1", "sdfghjk"], ["created_at", "2018-12-07 08:20:56.773094"], ["updated_at", "2018-12-07 08:20:56.773094"]]
+  ↳ app/controllers/visa_app_ones_controller.rb:30
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/visa_app_ones_controller.rb:30
+Redirected to http://localhost:3000/visa_app_ones/1
+Completed 302 Found in 5ms (ActiveRecord: 1.4ms)
+
+
+Started GET "/visa_app_ones/1" for 127.0.0.1 at 2018-12-07 11:20:56 +0300
+Processing by VisaAppOnesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mVisaAppOne Load (0.2ms)[0m  [1m[34mSELECT  "visa_app_ones".* FROM "visa_app_ones" WHERE "visa_app_ones"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/visa_app_ones_controller.rb:67
+  Rendering visa_app_ones/show.html.erb within layouts/application
+  Rendered visa_app_ones/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 38ms (Views: 33.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/visa_app_ones/new" for 127.0.0.1 at 2018-12-07 11:24:46 +0300
+Processing by VisaAppOnesController#new as HTML
+  Rendering visa_app_ones/new.html.erb within layouts/application
+  Rendered visa_app_ones/_form_step_1.html.erb (1.6ms)
+  Rendered visa_app_ones/new.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 39ms (Views: 31.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/visa_app_ones/new" for 127.0.0.1 at 2018-12-07 11:25:27 +0300
+Processing by VisaAppOnesController#new as HTML
+  Rendering visa_app_ones/new.html.erb within layouts/application
+  Rendered visa_app_ones/_form_step_1.html.erb (1.6ms)
+  Rendered visa_app_ones/new.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 41ms (Views: 32.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/visa_app_ones/new" for 127.0.0.1 at 2018-12-07 11:26:11 +0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/zakharday/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by VisaAppOnesController#new as HTML
+  Rendering visa_app_ones/new.html.erb within layouts/application
+  Rendered visa_app_ones/_form_step_1.html.erb (8.9ms)
+  Rendered visa_app_ones/new.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 285ms (Views: 270.4ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/visa_app_ones" for 127.0.0.1 at 2018-12-07 11:26:14 +0300
+Processing by VisaAppOnesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3w3LYVlXOx8lGzibvR7lENzO2CLCvhb94+j2wav87wFjoD4wIGNNDTVWKnUeUQi7WnkoJE2IaEFNs2Y7mlJ9NA==", "visa_app_one"=>{"q1"=>"sadfghjkl"}, "commit"=>"Далее"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/visa_app_ones_controller.rb:33
+  [1m[36mVisaAppOne Create (0.8ms)[0m  [1m[32mINSERT INTO "visa_app_ones" ("q1", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["q1", "sadfghjkl"], ["created_at", "2018-12-07 08:26:14.955391"], ["updated_at", "2018-12-07 08:26:14.955391"]]
+  ↳ app/controllers/visa_app_ones_controller.rb:33
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/visa_app_ones_controller.rb:33
+Redirected to http://localhost:3000/visa_app_ones/2/step_2
+Completed 302 Found in 5ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/visa_app_ones/2/step_2" for 127.0.0.1 at 2018-12-07 11:26:14 +0300
+Processing by VisaAppOnesController#step_2 as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mVisaAppOne Load (0.2ms)[0m  [1m[34mSELECT  "visa_app_ones".* FROM "visa_app_ones" WHERE "visa_app_ones"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/visa_app_ones_controller.rb:70
+  Rendering visa_app_ones/step_2.html.erb within layouts/application
+  Rendered visa_app_ones/_form_step_2.html.erb (1.4ms)
+  Rendered visa_app_ones/step_2.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 37ms (Views: 31.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/visa_app_ones/2/step_2" for 127.0.0.1 at 2018-12-07 11:28:44 +0300
+Processing by VisaAppOnesController#step_2 as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mVisaAppOne Load (0.1ms)[0m  [1m[34mSELECT  "visa_app_ones".* FROM "visa_app_ones" WHERE "visa_app_ones"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/visa_app_ones_controller.rb:85
+  Rendering visa_app_ones/step_2.html.erb within layouts/application
+  Rendered visa_app_ones/_form_step_2.html.erb (1.5ms)
+  Rendered visa_app_ones/step_2.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 40ms (Views: 31.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/visa_app_ones/2/step_2" for 127.0.0.1 at 2018-12-07 11:29:03 +0300
+Processing by VisaAppOnesController#step_2 as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mVisaAppOne Load (0.1ms)[0m  [1m[34mSELECT  "visa_app_ones".* FROM "visa_app_ones" WHERE "visa_app_ones"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/visa_app_ones_controller.rb:85
+  Rendering visa_app_ones/step_2.html.erb within layouts/application
+  Rendered visa_app_ones/_form_step_2.html.erb (133.3ms)
+  Rendered visa_app_ones/step_2.html.erb within layouts/application (135.4ms)
+Completed 500 Internal Server Error in 142ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (undefined method `update_step_2_path' for #<#<Class:0x00007faab98ec360>:0x00007faabfb94df0>
+Did you mean?  update_step_2_visa_app_one_path):
+    1: <%= form_with(model: visa_app_one, url: update_step_2_path(visa_app_one), local: true) do |form| %>
+    2:   <% if visa_app_one.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(visa_app_one.errors.count, "error") %> prohibited this visa_app_one from being saved:</h2>
+  
+app/views/visa_app_ones/_form_step_2.html.erb:1:in `_app_views_visa_app_ones__form_step___html_erb___268019409322753521_70185684045740'
+app/views/visa_app_ones/step_2.html.erb:3:in `_app_views_visa_app_ones_step___html_erb__148100020892246421_70185668881300'
+Started GET "/visa_app_ones/2/step_2" for 127.0.0.1 at 2018-12-07 11:29:30 +0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/zakharday/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by VisaAppOnesController#step_2 as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mVisaAppOne Load (0.1ms)[0m  [1m[34mSELECT  "visa_app_ones".* FROM "visa_app_ones" WHERE "visa_app_ones"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/visa_app_ones_controller.rb:85
+  Rendering visa_app_ones/step_2.html.erb within layouts/application
+  Rendered visa_app_ones/_form_step_2.html.erb (10.9ms)
+  Rendered visa_app_ones/step_2.html.erb within layouts/application (13.4ms)
+Completed 200 OK in 287ms (Views: 264.1ms | ActiveRecord: 0.6ms)
+
+
+Started PATCH "/visa_app_ones/2/update_step_2" for 127.0.0.1 at 2018-12-07 11:29:36 +0300
+  
+ActionController::RoutingError (No route matches [PATCH] "/visa_app_ones/2/update_step_2"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started PATCH "/visa_app_ones/2/update_step_2" for 127.0.0.1 at 2018-12-07 11:29:52 +0300
+Processing by VisaAppOnesController#update_step_2 as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4bdZ10Ps2ECpxtX1zLOCZHZoiIbp4PT802gG1EgdrsCXuCk6EujIUGVOKKqHJAQIjZ0NYMhfd/cFrdZM6cXS4Q==", "visa_app_one"=>{"q2"=>"tioytrfghjklv"}, "commit"=>"Update Visa app one", "id"=>"2"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `update' for nil:NilClass):
+  
+app/controllers/visa_app_ones_controller.rb:62:in `block in update_step_2'
+app/controllers/visa_app_ones_controller.rb:61:in `update_step_2'
+Started PATCH "/visa_app_ones/2/update_step_2" for 127.0.0.1 at 2018-12-07 11:30:28 +0300
+Processing by VisaAppOnesController#update_step_2 as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4bdZ10Ps2ECpxtX1zLOCZHZoiIbp4PT802gG1EgdrsCXuCk6EujIUGVOKKqHJAQIjZ0NYMhfd/cFrdZM6cXS4Q==", "visa_app_one"=>{"q2"=>"tioytrfghjklv"}, "commit"=>"Update Visa app one", "id"=>"2"}
+  [1m[36mVisaAppOne Load (0.1ms)[0m  [1m[34mSELECT  "visa_app_ones".* FROM "visa_app_ones" WHERE "visa_app_ones"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/visa_app_ones_controller.rb:85
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/visa_app_ones_controller.rb:62
+  [1m[36mVisaAppOne Update (0.5ms)[0m  [1m[33mUPDATE "visa_app_ones" SET "q2" = ?, "updated_at" = ? WHERE "visa_app_ones"."id" = ?[0m  [["q2", "tioytrfghjklv"], ["updated_at", "2018-12-07 08:30:28.946858"], ["id", 2]]
+  ↳ app/controllers/visa_app_ones_controller.rb:62
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/visa_app_ones_controller.rb:62
+Redirected to http://localhost:3000/visa_app_ones/2/step_3
+Completed 302 Found in 24ms (ActiveRecord: 2.3ms)
+
+
+Started GET "/visa_app_ones/2/step_3" for 127.0.0.1 at 2018-12-07 11:30:28 +0300
+Processing by VisaAppOnesController#step_3 as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mVisaAppOne Load (0.1ms)[0m  [1m[34mSELECT  "visa_app_ones".* FROM "visa_app_ones" WHERE "visa_app_ones"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/visa_app_ones_controller.rb:85
+Completed 406 Not Acceptable in 118ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionController::UnknownFormat (VisaAppOnesController#step_3 is missing a template for this request format and variant.
+
+request.formats: ["text/html"]
+request.variant: []
+
+NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
+  
+actionpack (5.2.1) lib/action_controller/metal/implicit_render.rb:55:in `default_render'
+actionpack (5.2.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (5.2.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (5.2.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (5.2.1) lib/abstract_controller/base.rb:194:in `process_action'
+actionpack (5.2.1) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.2.1) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (5.2.1) lib/active_support/callbacks.rb:132:in `run_callbacks'
+actionpack (5.2.1) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (5.2.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (5.2.1) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (5.2.1) lib/active_support/notifications.rb:168:in `block in instrument'
+activesupport (5.2.1) lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+activesupport (5.2.1) lib/active_support/notifications.rb:168:in `instrument'
+actionpack (5.2.1) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (5.2.1) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+activerecord (5.2.1) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.1) lib/abstract_controller/base.rb:134:in `process'
+actionview (5.2.1) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.1) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.1) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.6) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+actionpack (5.2.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.1) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/visa_app_ones/" for 127.0.0.1 at 2018-12-07 11:30:47 +0300
+Processing by VisaAppOnesController#index as HTML
+  Rendering visa_app_ones/index.html.erb within layouts/application
+  [1m[36mVisaAppOne Load (0.2ms)[0m  [1m[34mSELECT "visa_app_ones".* FROM "visa_app_ones"[0m
+  ↳ app/views/visa_app_ones/index.html.erb:17
+  Rendered visa_app_ones/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 45ms (Views: 41.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/visa_app_ones/new" for 127.0.0.1 at 2018-12-07 11:30:50 +0300
+Processing by VisaAppOnesController#new as HTML
+  Rendering visa_app_ones/new.html.erb within layouts/application
+  Rendered visa_app_ones/_form_step_1.html.erb (1.4ms)
+  Rendered visa_app_ones/new.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 32ms (Views: 30.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/visa_app_ones" for 127.0.0.1 at 2018-12-07 11:30:53 +0300
+Processing by VisaAppOnesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VOF8U2lzBFdO+CrvpPJsoE8O6QzBJIMo95uNU/eCmBLoTIkCEEdyRV61OAEHvYELybkZCk4S/ZRZwB2pxiwKJw==", "visa_app_one"=>{"q1"=>"weyuioptre"}, "commit"=>"Далее"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/visa_app_ones_controller.rb:36
+  [1m[36mVisaAppOne Create (0.3ms)[0m  [1m[32mINSERT INTO "visa_app_ones" ("q1", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["q1", "weyuioptre"], ["created_at", "2018-12-07 08:30:53.472742"], ["updated_at", "2018-12-07 08:30:53.472742"]]
+  ↳ app/controllers/visa_app_ones_controller.rb:36
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/visa_app_ones_controller.rb:36
+Redirected to http://localhost:3000/visa_app_ones/3/step_2
+Completed 302 Found in 4ms (ActiveRecord: 1.1ms)
+
+
+Started GET "/visa_app_ones/3/step_2" for 127.0.0.1 at 2018-12-07 11:30:53 +0300
+Processing by VisaAppOnesController#step_2 as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mVisaAppOne Load (0.1ms)[0m  [1m[34mSELECT  "visa_app_ones".* FROM "visa_app_ones" WHERE "visa_app_ones"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/visa_app_ones_controller.rb:85
+  Rendering visa_app_ones/step_2.html.erb within layouts/application
+  Rendered visa_app_ones/_form_step_2.html.erb (1.2ms)
+  Rendered visa_app_ones/step_2.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 32ms (Views: 29.6ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/visa_app_ones/3/update_step_2" for 127.0.0.1 at 2018-12-07 11:30:56 +0300
+Processing by VisaAppOnesController#update_step_2 as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"63xUbU5PSbgFy2wYOseB1hRxX3NhArBJ8MODonChs5olw29pUswkj/zY0JcLQDzXj00r3XIyVS0fF/rUfGgRpQ==", "visa_app_one"=>{"q2"=>"elvcvbnm,./"}, "commit"=>"Update Visa app one", "id"=>"3"}
+  [1m[36mVisaAppOne Load (0.1ms)[0m  [1m[34mSELECT  "visa_app_ones".* FROM "visa_app_ones" WHERE "visa_app_ones"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/visa_app_ones_controller.rb:85
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/visa_app_ones_controller.rb:62
+  [1m[36mVisaAppOne Update (0.3ms)[0m  [1m[33mUPDATE "visa_app_ones" SET "q2" = ?, "updated_at" = ? WHERE "visa_app_ones"."id" = ?[0m  [["q2", "elvcvbnm,./"], ["updated_at", "2018-12-07 08:30:56.728944"], ["id", 3]]
+  ↳ app/controllers/visa_app_ones_controller.rb:62
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/visa_app_ones_controller.rb:62
+Redirected to http://localhost:3000/visa_app_ones/3/step_3
+Completed 302 Found in 4ms (ActiveRecord: 1.1ms)
+
+
+Started GET "/visa_app_ones/3/step_3" for 127.0.0.1 at 2018-12-07 11:30:56 +0300
+Processing by VisaAppOnesController#step_3 as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mVisaAppOne Load (0.1ms)[0m  [1m[34mSELECT  "visa_app_ones".* FROM "visa_app_ones" WHERE "visa_app_ones"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/visa_app_ones_controller.rb:85
+Completed 406 Not Acceptable in 122ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionController::UnknownFormat (VisaAppOnesController#step_3 is missing a template for this request format and variant.
+
+request.formats: ["text/html"]
+request.variant: []
+
+NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
+  
+actionpack (5.2.1) lib/action_controller/metal/implicit_render.rb:55:in `default_render'
+actionpack (5.2.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (5.2.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (5.2.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (5.2.1) lib/abstract_controller/base.rb:194:in `process_action'
+actionpack (5.2.1) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.2.1) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (5.2.1) lib/active_support/callbacks.rb:132:in `run_callbacks'
+actionpack (5.2.1) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (5.2.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (5.2.1) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (5.2.1) lib/active_support/notifications.rb:168:in `block in instrument'
+activesupport (5.2.1) lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+activesupport (5.2.1) lib/active_support/notifications.rb:168:in `instrument'
+actionpack (5.2.1) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (5.2.1) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+activerecord (5.2.1) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.1) lib/abstract_controller/base.rb:134:in `process'
+actionview (5.2.1) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.1) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.1) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.6) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+actionpack (5.2.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.1) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
