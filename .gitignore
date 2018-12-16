@@ -37,3 +37,9 @@ erd.pdf
 /node_modules
 yarn-debug.log*
 .yarn-integrity
+Gemfile.lock
+
+.idea/
+.DS_Store
+
+log/
