@@ -11,29 +11,34 @@
   <form>
 
     <div class="form-group visa-applications-form">
-      <h6>
-        <strong>Applicant's home address and e-mail address</strong>
-      </h6>
-      <input type="textanswer" class="form-control" id="FormControlInput1" placeholder="Type in applicant's home address and e-mail address">
+      <h4>
+        <strong>Домашний адрес и адрес электронной почты заявителя</strong>
+      </h4>
+      <input type="textanswer" class="form-control col-md-9" id="FormControlInput1" placeholder="Введите домашний адрес и электронный адрес почты">
     </div>
 
     <div class="form-group visa-applications-form">
-      <h6>
-        <strong>Telephone number(s)</strong>
-      </h6>
-      <input type="textanswer" class="form-control" id="FormControlInput1" placeholder="Type telephone number(s)">
+      <h4>
+        <strong>Телефонный номер</strong>
+      </h4>
+      <input type="textanswer" class="form-control col-md-9" id="FormControlInput1" placeholder="Введите ваш телефонный номер">
     </div>
 
     <div class="form-group visa-applications-form">
-      <h6>
-        <strong>Residence in a country other than the country of current nationality</strong>
-      </h6>
-      <label><input type="radio" name="radio" class="as-checkbox">Yes</label>
-      <label><input type="radio" name="radio" class="as-checkbox">No</label>
-      <small id="passwordHelpBlock" class="form-text text-muted">Residence permit or equivalent №</small>
-      <input type="textanswer" class="form-control" id="FormControlInput1" placeholder="Residence permit or equivalent №">
-      <small id="passwordHelpBlock" class="form-text text-muted">Valid until</small>
-
+      <h4>
+        <strong>Страна пребывания если не является страной гражданства</strong>
+      </h4>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+        <label class="form-check-label" for="inlineRadio1">Да</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+        <label class="form-check-label" for="inlineRadio2">Нет</label>
+      </div>
+      <small id="passwordHelpBlock" class="form-text text-muted">Вид на жительство или равноценный документ</small>
+      <input type="textanswer" class="form-control col-md-9" id="FormControlInput1" placeholder="Укажите вид на жительство или равноценный документ">
+      <small id="passwordHelpBlock" class="form-text text-muted">Действителен до</small>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
       <div class="dates">
         <div class="start_date input-group mb-4">
@@ -42,31 +47,22 @@
       </div>
     </div>
 
-
     <div class="form-group visa-applications-form">
-      <h6>
-        <strong>Current occupation</strong>
-      </h6>
-      <input type="textanswer" class="form-control" id="FormControlInput1" placeholder="Type current occupation">
+      <h4>
+        <strong>Профессиональная деятельность на данный момент</strong>
+      </h4>
+      <input type="textanswer" class="form-control col-md-9" id="FormControlInput1" placeholder="Введите вашу профессиональную деятельность">
     </div>
 
     <div class="form-group visa-applications-form">
-      <h6>
-        <strong>Employer and employer's address and telephone number.</strong>
-        <small class="text-muted help-text">For students, name and address establishment.</small>
-      </h6>
-      <input type="textanswer" class="form-control" id="FormControlInput1" placeholder="Type employer address and telephone number(s)">
+      <h4>
+        <strong>Работадатель, адрес, телефон работадателя.</strong>
+        <small class="text-muted help-text">(Для студентов, школьников — название и адрес учебного заведения)</small>
+      </h4>
+      <input type="textanswer" class="form-control col-md-9" id="FormControlInput1" placeholder="Укажите работадателя, его адрес и телефон">
     </div>
-
-    <%= link_to 'Далее', visa_applications_path(:step => "14"), class: "btn btn-primary"%>
-
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-
+    <div class="visa-applications-button">
+      <%= link_to 'Далее', visa_applications_path(:step => "14"), class: "btn btn-primary"%>
+    </div>
   </form>
 </div>

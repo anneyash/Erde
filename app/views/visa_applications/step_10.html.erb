@@ -10,98 +10,86 @@
 <div class="col-md-7">
 <form>
   <div class="form-group visa-applications-form">
-    <h6>
-      <strong>Surname</strong>
-      <small class="text-muted">(Family name)</small>
-    </h6>
-    <input type="textanswer" class="form-control" id="FormControlInput1" placeholder="Type in your surname">
+    <h4>
+      <strong>Фамилия</strong>
+    </h4>
+    <input type="textanswer" class="form-control col-md-9" id="FormControlInput1" placeholder="Введите вашу фамилию">
   </div>
 
   <div class="form-group visa-applications-form">
-    <h6>
-      <strong>Surname at birth</strong>
-      <small class="text-muted">(Former family name(s))</small>
-    </h6>
-    <input type="textanswer" class="form-control" id="FormControlInput1" placeholder="Type in surname at birth">
+    <h4>
+      <strong>Фамилия при рождении</strong>
+      <small class="text-muted">(предыдущая / -ие фамилии)</small>
+    </h4>
+    <input type="textanswer" class="form-control col-md-9" id="FormControlInput1" placeholder="Введите вашу фамилию при рождении">
   </div>
 
   <div class="form-group visa-applications-form">
-    <h6>
-      <strong>First name(s)</strong>
-      <small class="text-muted">(Given name(s))</small>
-    </h6>
-    <input type="textanswer" class="form-control" id="FormControlInput1" placeholder="Type in first surname(s)">
+    <h4>
+      <strong>Имя</strong>
+      <small class="text-muted">(имена)</small>
+    </h4>
+    <input type="textanswer" class="form-control col-md-9" id="FormControlInput1" placeholder="Введите ваше имя(имена)">
   </div>
 
   <div class="form-group visa-applications-form">
-    <h6>
-      <strong>Date of birth</strong>
-    </h6>
+    <h4>
+      <strong>Дата рождения</strong>
+    </h4>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
     <div class="dates">
       <div class="start_date input-group mb-4">
-        <input class="form-control start_date" type="date" id="startdate_datepicker">
+        <input class="form-control start_date col-md-9" type="date" id="startdate_datepicker">
       </div>
     </div>
   </div>
 
   <div class="form-group visa-applications-form">
-    <h6>
-      <strong>Place of birth</strong>
-    </h6>
-    <input type="textanswer" class="form-control" id="FormControlInput1" placeholder="Type in the place of birth">
+    <h4>
+      <strong>Место рождения</strong>
+    </h4>
+    <input type="textanswer" class="form-contro col-md-9" id="FormControlInput1" placeholder="Введите ваше место рождения">
   </div>
 
   <div class="form-group visa-applications-form">
-    <h6>
-      <strong>Country of birth</strong>
-    </h6>
-    <input type="textanswer" class="form-control" id="FormControlInput1" placeholder="Type in the country of birth">
+    <h4>
+      <strong>Страна рождения</strong>
+    </h4>
+    <input type="textanswer" class="form-control col-md-9" id="FormControlInput1" placeholder="Введите вашу страну рождения">
   </div>
 
   <div class="form-group visa-applications-form">
-    <h6>
-      <strong>Current nationality</strong>
-    </h6>
-    <input type="textanswer" class="form-control" id="FormControlInput1" placeholder="Type in the current nationality">
+    <h4>
+      <strong>Текущее гражданство</strong>
+    </h4>
+    <input type="textanswer" class="form-control col-md-9" id="FormControlInput1" placeholder="Введите ваше текущее гражданство">
   </div>
 
   <div class="form-group visa-applications-form">
-    <h6>
-      <strong>Nationality at birth</strong>
-      <small class="text-muted">(if different)</small>
-    </h6>
-    <input type="textanswer" class="form-control" id="FormControlInput1" placeholder="Type in the nationality at birth">
+    <h4>
+      <strong>Гражданство при рождении</strong>
+      <small class="text-muted">(если отличается)</small>
+    </h4>
+    <input type="textanswer" class="form-control col-md-9" id="FormControlInput1" placeholder="Введите ваше гражданство при рождении">
   </div>
 
-  <div class="form-group visa-applications-form">
-    <h6>
-      <strong>Sex</strong>
-    </h6>
+  <div class="form-group visa-applications-form visa-applications-checkbox">
+    <h4>
+      <strong>Пол</strong>
+    </h4>
   </div>
-  <div class="custom-control custom-checkbox custom-control-inline">
-    <input type="checkbox" id="customCheckInline1" name="customCheckInline1" class="custom-control-input">
-    <label class="custom-control-label" for="customCheckInline1">Male</label>
+  <div class="form-check form-check-inline">
+    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+    <label class="form-check-label" for="inlineRadio1">Мужской</label>
   </div>
-  <div class="custom-control custom-checkbox custom-control-inline">
-    <input type="checkbox" id="customCheckInline2" name="customCheckline2" class="custom-control-input">
-    <label class="custom-control-label" for="customCheckInline2">Female</label>
+  <div class="form-check form-check-inline">
+    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+    <label class="form-check-label" for="inlineRadio2">Женский</label>
   </div>
 
-  <br>
-  <br>
-  <br>
-  <br>
-
-  <%= link_to 'Далее', visa_applications_path(:step => "11"), class: "btn btn-primary"%>
-
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
+  <div class="visa-applications-button">
+    <%= link_to 'Далее', visa_applications_path(:step => "11"), class: "btn btn-primary"%>
+  </div>
 
 </form>
 </div>

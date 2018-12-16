@@ -10,65 +10,58 @@
 
 <form>
   <div class="col-md-12 form-group visa-applications-form">
-    <h6>
-      <strong>Marital Status</strong>
-    </h6>
-      <div class="custom-control custom-checkbox custom-control-inline">
-        <input type="checkbox" id="customCheckInline1" name="customCheckInline1" class="custom-control-input">
-        <label class="custom-control-label" for="customCheckInline1">Single</label>
+    <h4>
+      <strong>Семейное положение</strong>
+    </h4>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+        <label class="form-check-label" for="inlineRadio1">Холост/ не замужем</label>
       </div>
-      <div class="custom-control custom-checkbox custom-control-inline">
-        <input type="checkbox" id="customCheckInline2" name="customCheckline2" class="custom-control-input">
-        <label class="custom-control-label" for="customCheckInline2">Married</label>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+        <label class="form-check-label" for="inlineRadio2">Женат/ замужем</label>
       </div>
-      <div class="custom-control custom-checkbox custom-control-inline">
-        <input type="checkbox" id="customCheckInline3" name="customCheckline3" class="custom-control-input">
-        <label class="custom-control-label" for="customCheckInline3">Separated</label>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+        <label class="form-check-label" for="inlineRadio3">Не проживает с супругом</label>
       </div>
-      <div class="custom-control custom-checkbox custom-control-inline">
-        <input type="checkbox" id="customCheckInline4" name="customCheckInline4" class="custom-control-input">
-        <label class="custom-control-label" for="customCheckInline4">Divorced</label>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4">
+        <label class="form-check-label" for="inlineRadio4">Разведён (-а)</label>
       </div>
-      <div class="custom-control custom-checkbox custom-control-inline">
-        <input type="checkbox" id="customCheckInline5" name="customCheckline5" class="custom-control-input">
-        <label class="custom-control-label" for="customCheckInline5">Widow(er)</label>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio5" value="option5">
+        <label class="form-check-label" for="inlineRadio5">Вдовец (вдова)</label>
       </div>
-      <div class="custom-control custom-checkbox custom-control-inline">
-        <input type="checkbox" id="customCheckInline6" name="customCheckline6" class="custom-control-input">
-        <label class="custom-control-label" for="customCheckInline6">Other (please specify)</label>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio6" value="option6">
+        <label class="form-check-label" for="inlineRadio6">Другое (уточните)</label>
       </div>
   </div>
 
   <div class="form-group col-md-7 form-group visa-applications-form">
-    <input type="textanswer" class="form-control" id="FormControlInput1" placeholder="Specify the marital status">
+    <input type="textanswer" class="form-control col-md-9" id="FormControlInput1" placeholder="Уточните семейное положение">
   </div>
 
   <div class="form-group col-md-7 form-group visa-applications-form">
-    <h6>
-      <strong>In the case of minors: Surname, first name, address</strong>
-      <small class="text-muted">(if different from applicant's)</small>
-      <strong>and nationality of parental authority/legal guardian</strong>
-    </h6>
-    <input type="textanswer" class="form-control" id="FormControlInput1" placeholder="Type in surname, first name, address">
+    <h4>
+      <strong>Для несовершеннолетних: фамилия / имя / адрес</strong>
+      <small class="text-muted">(если отличается от адреса заявителя)</small>
+      <strong>и гражданство лица с полномочием родителя / законного представителя</strong>
+    </h4>
+    <input type="textanswer" class="form-control col-md-9" id="FormControlInput1" placeholder="Введите фамилию, имя, адрес законного представителя">
   </div>
 
   <div class="form-group col-md-7 form-group visa-applications-form">
-    <h6>
-      <strong>National identity number, where applicable</strong>
-    </h6>
-    <input type="textanswer" class="form-control" id="FormControlInput1" placeholder="Type in national identity number">
+    <h4>
+      <strong>Идентификационный номер</strong>
+      <small class="text-muted">(если имеется)</small>
+    </h4>
+    <input type="textanswer" class="form-control col-md-9" id="FormControlInput1" placeholder="Введите идентификационный номер">
   </div>
 
-  <div class="col-md-7">
-  <%= link_to 'Далее', visa_applications_path(:step => "12"), class: "btn btn-primary"%>
+  <div class="col-md-7 visa-applications-button">
+    <%= link_to 'Далее', visa_applications_path(:step => "12"), class: "btn btn-primary"%>
   </div>
-
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
 
 </form>

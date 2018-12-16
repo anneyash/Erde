@@ -1,9 +1,3 @@
-input[type="radio"].as-checkbox {
- -webkit-appearance: checkbox; /* Chrome, Safari, Opera */
- -moz-appearance: checkbox;    /* Firefox */
- -ms-appearance: checkbox;     /* not currently supported */
-}
-
 div.form-progress-bar {
   margin: 20px 0 50px;
 }
@@ -13,10 +7,14 @@ div.progress {
 }
 
 .visa-applications-form {
-  margin: 50px 0
+  margin: 50px 0;
 }
 
 small.help-text {
   width: 100%;
   display: block;
+}
+
+.visa-applications-button {
+  margin: 50px 0 80px;
 }

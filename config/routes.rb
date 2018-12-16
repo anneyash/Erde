@@ -2,7 +2,11 @@ Rails.application.routes.draw do
   ActiveAdmin.routes(self)
   resources :navbars
   resources :landings
-  resources :visa_applications
+
+  resources :visa_applications do
+    
+  end
+
   resources :visas
   resources :answers
   resources :questions
