@@ -1,3 +1,3 @@
 ActiveAdmin.register Form do
-  permit_params :name
+  permit_params :title
 end
