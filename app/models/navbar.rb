@@ -1,2 +1,0 @@
-class Navbar < ApplicationRecord
-end

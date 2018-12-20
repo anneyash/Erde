@@ -1,48 +1,17 @@
+<div class="col-md-7">
 <form>
-  <div class="form-group">
-    <label for="FormControlInput1">Is there any other information you wish <br> to be considered as part of your application?</label>
-    <input type="textanswer" class="form-control" id="FormControlInput1" placeholder="Type in the main purpose of visiting the UK">
-  </div>
+  <% @questions.each do |question| -%>
+    <div class="form-group visa-applications-form">
+      <h4>
+        <strong><%= question.title %></strong>
+      </h4>
+      <% question.question_options.each do |question_option| -%>
+        <input type="textanswer" class="form-control col-md-9" id="FormControlInput1" name="option_<%= question_option.id %>">
+      <% end %>
 
-  <div class="form-group">
-    <label for="FormControlInput1">Have your ever received medical treatment in the UK?</label>
-  </div>
-  <div class="custom-control custom-checkbox custom-control-inline">
-    <input type="checkbox" id="customCheckInline1" name="customCheckInline1" class="custom-control-input">
-    <label class="custom-control-label" for="customCheckInline1">Yes</label>
-  </div>
-  <div class="custom-control custom-checkbox custom-control-inline">
-    <input type="checkbox" id="customCheckInline2" name="customCheckline1" class="custom-control-input">
-    <label class="custom-control-label" for="customCheckInline2">No</label>
-  </div>
-
-  <div class="form-group">
-    <label for="FormControlInput1">Did you have to pay for the treatment?</label>
-  </div>
-  <div class="custom-control custom-checkbox custom-control-inline">
-    <input type="checkbox" id="customCheckInline3" name="customCheckInline3" class="custom-control-input">
-    <label class="custom-control-label" for="customCheckInline3">Yes</label>
-  </div>
-  <div class="custom-control custom-checkbox custom-control-inline">
-    <input type="checkbox" id="customCheckInline4" name="customCheckline4" class="custom-control-input">
-    <label class="custom-control-label" for="customCheckInline4">No</label>
-  </div>
-
-  <div class="form-group">
-    <label for="FormControlInput1">Where did you received the treatment?</label>
-    <input type="textanswer" class="form-control" id="FormControlInput1" placeholder="Type in the adress where did you received the treatment">
-  </div>
-
-  <div class="form-group">
-    <label for="FormControlInput1">Name of hospital/clinic/Doctor's surgery:</label>
-    <input type="textanswer" class="form-control" id="FormControlInput1" placeholder="Type in the name of hospital/clinic/Doctor's surgery">
-  </div>
-
-  <div class="form-group">
-    <label for="FormControlInput1">Telephone number:</label>
-    <input type="textanswer" class="form-control" id="FormControlInput1" placeholder="Type in your telephone number">
-  </div>
-
-  <%= link_to 'Move to the Declaration', visa_applications_path(:step => "2"), class: "btn btn-primary"%>
+    </div>
+  <% end %>
+  <%= link_to 'Move to the Declaration', visa_applications_path(:step => "2"), class: "btn btn-primary" %>
 
 </form>
+</div>

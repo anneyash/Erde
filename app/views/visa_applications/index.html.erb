@@ -1,1 +1,17 @@
+<div class="col-md-7">
+  <form method="POST" id="visa_application_form">
+    <% @questions.each do |question| -%>
+      <div class="form-group visa-applications-form">
+        <h4>
+          <strong><%= question.title %></strong>
+        </h4>
+        <% question.question_options.each do |question_option| -%>
+          <input type="textanswer" class="form-control col-md-9" id="FormControlInput1" name="option_<%= question_option.id %>">
+        <% end %>
 
+      </div>
+    <% end %>
+    <button type="submit" form="visa_application_form" value="Submit" class="btn btn-primary">Next</button>
+
+  </form>
+</div>
