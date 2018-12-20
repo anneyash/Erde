@@ -14,6 +14,13 @@ class VisaApplicationsController < ApplicationController
 
   # POST /visa_applications
   def create
+    params.each do |key, value|
+      if key.start_with?("question_")
+        question_id = key[9..-1]
+        Answer.create(:question_id => question_id, :answer => value)
+      end
+    end
+
     step_id = params[:step]
     next_step = Step.find(step_id).get_next
     if next_step.nil?
