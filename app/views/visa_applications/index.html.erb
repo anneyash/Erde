@@ -1,35 +1,40 @@
 <div class="col-md-7">
   <form method="POST" id="visa_application_form">
     <% @questions.each do |question| -%>
-    <div class="form-group visa-applications-form">
-      <h4>
-        <strong><%= question.title %></strong>
-      </h4>
-      <% if question.question_type == "string_input" %>
-      <input type="textanswer" class="form-control col-md-9" id="FormControlInput<%= question.id %>"
-      name="question_<%= question.id %>">
-      <% elsif question.question_type == "radiobutton_choice" %>
-      <% question.question_options.each do |question_option| -%>
-      <div class="form-check form-check-inline">
-        <input class="form-check-input" type="radio" name="question_<%= question.id %>"
-        id="inlineRadio<%= question_option.id %>" value="<%= question_option.content %>">
-        <label class="form-check-label" for="inlineRadio<%= question_option.id %>">
-          <%= question_option.content %>
-        </label>
+      <div class="form-group visa-applications-form">
+        <h4>
+          <strong><%= question.title %></strong>
+          <% if question.muted_text and question.muted_text != "" %>
+            <small class="text-muted">(<%= question.muted_text %>)</small>
+          <% end %>
+        </h4>
+        <% if question.question_type == "string_input" %>
+          <input type="textanswer" class="form-control col-md-9" id="FormControlInput<%= question.id %>"
+                 name="question_<%= question.id %>" placeholder="<%= question.placeholder %>">
+        <% elsif question.question_type == "radiobutton_choice" %>
+          <% question.question_options.each do |question_option| -%>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="question_<%= question.id %>"
+                     id="inlineRadio<%= question_option.id %>" value="<%= question_option.content %>">
+              <label class="form-check-label" for="inlineRadio<%= question_option.id %>">
+                <%= question_option.content %>
+              </label>
+            </div>
+          <% end %>
+        <% elsif question.question_type == "date" %>
+          <div class="dates">
+            <div class="start_date input-group mb-4">
+              <input class="form-control start_date col-md-9" name="question_<%= question.id %>"
+                     type="date" id="startdate_datepicker">
+            </div>
+          </div>
+        <% end %>
       </div>
-      <% end %>
-      <% elsif question.question_type == "date" %>
-      <div class="dates">
-        <div class="start_date input-group mb-4">
-          <input class="form-control start_date col-md-9" name="question_<%= question.id %>"
-          type="date" id="startdate_datepicker">
-        </div>
-      </div>
-      <% end %>
-    </div>
 
     <% end %>
-    <button type="submit" form="visa_application_form" value="Submit" class="btn btn-primary">Next</button>
+    <div class="visa-applications-button">
+      <button type="submit" form="visa_application_form" value="Submit" class="btn btn-primary">Далее</button>
+    </div>
 
   </form>
 </div>

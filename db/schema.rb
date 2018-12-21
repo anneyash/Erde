@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_12_20_182820) do
+ActiveRecord::Schema.define(version: 2018_12_21_011007) do
 
   create_table "active_admin_comments", force: :cascade do |t|
     t.string "namespace"
@@ -29,9 +29,9 @@ ActiveRecord::Schema.define(version: 2018_12_20_182820) do
   create_table "answers", force: :cascade do |t|
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.string "custom_answer"
-    t.integer "question_option_id"
-    t.index ["question_option_id"], name: "index_answers_on_question_option_id"
+    t.string "answer"
+    t.integer "question_id"
+    t.index ["question_id"], name: "index_answers_on_question_id"
   end
 
   create_table "countries", force: :cascade do |t|
@@ -89,6 +89,8 @@ ActiveRecord::Schema.define(version: 2018_12_20_182820) do
     t.string "question_type"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "muted_text"
+    t.string "placeholder"
     t.index ["step_id"], name: "index_questions_on_step_id"
   end
 
