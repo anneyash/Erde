@@ -1,0 +1,22 @@
+version: '3'
+
+services:
+  backend:
+    build:
+      context: .
+    depends_on:
+    - db
+    ports:
+    - "3000:3000"
+    environment:
+      DATABASE_URL: postgres://root:root@db:5432/erge
+    volumes:
+      - .:/myapp
+  db:
+    image: postgres:10.3-alpine
+    volumes:
+      - ./data/postgres:/var/lib/postgresql/data
+    environment:
+        POSTGRES_USER: root
+        POSTGRES_PASSWORD: root
+        POSTGRES_DB: erge

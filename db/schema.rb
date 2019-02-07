@@ -10,15 +10,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_12_21_011007) do
+ActiveRecord::Schema.define(version: 2018_12_21_011632) do
+
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
 
   create_table "active_admin_comments", force: :cascade do |t|
     t.string "namespace"
     t.text "body"
     t.string "resource_type"
-    t.integer "resource_id"
+    t.bigint "resource_id"
     t.string "author_type"
-    t.integer "author_id"
+    t.bigint "author_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["author_type", "author_id"], name: "index_active_admin_comments_on_author_type_and_author_id"
@@ -30,7 +33,7 @@ ActiveRecord::Schema.define(version: 2018_12_21_011007) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "answer"
-    t.integer "question_id"
+    t.bigint "question_id"
     t.index ["question_id"], name: "index_answers_on_question_id"
   end
 
@@ -76,7 +79,7 @@ ActiveRecord::Schema.define(version: 2018_12_21_011007) do
   end
 
   create_table "question_options", force: :cascade do |t|
-    t.integer "question_id", null: false
+    t.bigint "question_id", null: false
     t.string "content"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -84,7 +87,7 @@ ActiveRecord::Schema.define(version: 2018_12_21_011007) do
   end
 
   create_table "questions", force: :cascade do |t|
-    t.integer "step_id", null: false
+    t.bigint "step_id", null: false
     t.string "title"
     t.string "question_type"
     t.datetime "created_at", null: false
@@ -95,7 +98,7 @@ ActiveRecord::Schema.define(version: 2018_12_21_011007) do
   end
 
   create_table "steps", force: :cascade do |t|
-    t.integer "form_id"
+    t.bigint "form_id"
     t.integer "order_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -124,4 +127,5 @@ ActiveRecord::Schema.define(version: 2018_12_21_011007) do
     t.datetime "updated_at", null: false
   end
 
+  add_foreign_key "answers", "questions"
 end
