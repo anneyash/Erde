@@ -1,10 +1,8 @@
 class Form < ApplicationRecord
-  has_many :steps, dependent: :destroy
+  has_many :questions, dependent: :destroy
 
-  def get_step(current_step_id = nil)
-    if current_step_id
-      return self.steps.find(current_step_id)
-    end
-    return self.steps.order("order_id").first
+
+  def get_questions_by_step(current_step = 1)
+    return self.questions.where(["step = :step", {step: current_step}])
   end
 end

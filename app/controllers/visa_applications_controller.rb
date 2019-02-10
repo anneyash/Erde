@@ -6,27 +6,24 @@ class VisaApplicationsController < ApplicationController
   def index
     @form = Form.first
     step_id = params[:step]
-    @step = @form.get_step(step_id)
-    if @step
-      @questions = @step.questions
-    end
+    @questions = @form.get_questions_by_step(step_id)
   end
 
   # POST /visa_applications
   def create
+    form = Form.first
     params.each do |key, value|
       if key.start_with?("question_")
         question_id = key[9..-1]
         Answer.create(:question_id => question_id, :answer => value)
       end
     end
-
-    step_id = params[:step]
-    next_step = Step.find(step_id).get_next
-    if next_step.nil?
+    next_step = params[:step].to_i + 1
+    new_questions = form.questions.where(["step = :next_step", {next_step: next_step}])
+    if new_questions.blank?
       redirect_to action: "finished_form"
     else
-      redirect_to action: "index", step: next_step.id
+      redirect_to action: "index", step: next_step
     end
   end
 
@@ -39,9 +36,7 @@ class VisaApplicationsController < ApplicationController
   def set_step_id
     step_id = params[:step]
     unless step_id
-      form = Form.first
-      step = form.get_step
-      redirect_to action: "index", step: step.id
+      redirect_to action: "index", step: 1
 
     end
   end

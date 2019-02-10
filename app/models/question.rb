@@ -9,7 +9,6 @@ class Question < ApplicationRecord
                           ["Radiobutton choice", RADIOBUTTON_CHOICE],
                           ["Date", DATE]]
 
-  belongs_to :step
   has_many :question_options, dependent: :destroy
   has_many :answers
 
