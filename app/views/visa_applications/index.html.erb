@@ -13,8 +13,8 @@
                  name="question_<%= question.id %>" placeholder="<%= question.placeholder %>">
         <% elsif question.question_type == "radiobutton_choice" %>
           <% question.question_options.each do |question_option| -%>
-            <div class="form-check form-check-inline">
-              <input class="form-check-input" type="radio" name="question_<%= question.id %>"
+            <div class="form-check form-check-inline input">
+              <input class="form-check-input radiobutton" type="radio" name="question_<%= question.id %>"
                      id="inlineRadio<%= question_option.id %>" value="<%= question_option.content %>">
               <label class="form-check-label" for="inlineRadio<%= question_option.id %>">
                 <%= question_option.content %>
@@ -22,9 +22,9 @@
             </div>
           <% end %>
         <% elsif question.question_type == "date" %>
-          <div class="dates">
+          <div class="dates klop">
             <div class="start_date input-group mb-4">
-              <input class="form-control start_date col-md-9" name="question_<%= question.id %>"
+              <input class="form-control start_date col-md-9 datepicker-custom-format" name="question_<%= question.id %>"
                      type="date" id="startdate_datepicker">
             </div>
           </div>
