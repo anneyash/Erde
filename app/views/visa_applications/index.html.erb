@@ -24,8 +24,9 @@
         <% elsif question.question_type == "date" %>
           <div class="dates klop">
             <div class="start_date input-group mb-4">
-              <input class="form-control start_date col-md-9 datepicker-custom-format" name="question_<%= question.id %>"
-                     type="date" id="startdate_datepicker">
+              <input class="form-control start_date col-md-9" name="question_<%= question.id %>"
+                     placeholder="дд.мм.гг"
+                     id="startdate_datepicker" data-provide='datepicker'>
             </div>
           </div>
         <% end %>
