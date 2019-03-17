@@ -16,3 +16,22 @@
 //= require_tree .
 //= require bootstrap-datepicker/core
 //= require bootstrap-datepicker/locales/bootstrap-datepicker.ru.js
+
+function ShowOptionalInput(element) {
+    $(element).show()
+
+}
+
+function HideOptionalInput(element) {
+    $(element).val("").hide()
+
+}
+
+function Validate(element) {
+    if (element.value !== "") {
+        element.classList.add("valid-value");
+    } else {
+        element.classList.remove("valid-value");
+
+    }
+}

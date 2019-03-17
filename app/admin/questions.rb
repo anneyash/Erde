@@ -1,5 +1,5 @@
 ActiveAdmin.register Question do
-  permit_params :title, :question_type, :step, :form_id, :ordering, :muted_text, :placeholder
+  permit_params :title, :question_type, :step, :form_id, :ordering, :muted_text, :placeholder, :has_optional_answer, :is_group_view
 
   form do |f|
     f.input :title
@@ -9,6 +9,8 @@ ActiveAdmin.register Question do
     f.input :ordering
     f.input :muted_text
     f.input :placeholder
+    f.input :has_optional_answer
+    f.input :is_group_view
     f.actions
 
   end

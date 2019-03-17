@@ -48,7 +48,7 @@ small.help-text {
 button:hover {
   box-shadow: none !important;
   background: #0113e2 !important;
-  outline:0 !important;
+  outline: 0 !important;
   border-color: #0113e2 !important;
 }
 
@@ -96,4 +96,12 @@ input[type="radio"] + label:before {
 
 input[type="radio"]:checked + label:before {
   background-color: #0015ff;
+}
+
+.form-control.valid-value {
+  padding-right: 2.25rem;
+  background-repeat: no-repeat;
+  background-position: center right calc(2.25rem / 4);
+  background-size: calc(2.25rem / 2) calc(2.25rem / 2);
+  background-image: url("2.png");
 }

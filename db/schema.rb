@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_02_08_210630) do
+ActiveRecord::Schema.define(version: 2019_02_28_190909) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -96,6 +96,8 @@ ActiveRecord::Schema.define(version: 2019_02_08_210630) do
     t.integer "step"
     t.integer "ordering"
     t.integer "form_id"
+    t.boolean "has_optional_answer"
+    t.boolean "is_group_view"
   end
 
   create_table "users", force: :cascade do |t|
