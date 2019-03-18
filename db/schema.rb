@@ -71,6 +71,11 @@ ActiveRecord::Schema.define(version: 2019_02_28_190909) do
     t.datetime "updated_at", null: false
   end
 
+  create_table "pages", force: :cascade do |t|
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
   create_table "personal_informations", force: :cascade do |t|
     t.string "title"
     t.text "body"
@@ -96,8 +101,24 @@ ActiveRecord::Schema.define(version: 2019_02_28_190909) do
     t.integer "step"
     t.integer "ordering"
     t.integer "form_id"
+    t.text "body"
     t.boolean "has_optional_answer"
     t.boolean "is_group_view"
+  end
+
+  create_table "real_visa_application_questions", force: :cascade do |t|
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "real_visa_applications", force: :cascade do |t|
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "user_visa_applications", force: :cascade do |t|
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "users", force: :cascade do |t|
