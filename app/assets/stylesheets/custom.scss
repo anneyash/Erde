@@ -105,3 +105,91 @@ input[type="radio"]:checked + label:before {
   background-size: calc(2.25rem / 2) calc(2.25rem / 2);
   background-image: url("2.png");
 }
+
+
+ // все пошло не так
+
+ .image-country-1 img{
+  text-align: center;
+  height: 270px;
+  margin-left: 20px;
+   border-radius: 5px;
+}
+
+.image-country-2 img{
+    text-align: center;
+    height: 270px;
+    margin-left: 80px;
+    border-radius: 5px;
+  }
+
+  div.country-small-text {
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+
+  div.country-small-text-1 {
+    margin-left: 20px;
+    margin-top: 5px;
+  }
+
+
+div.country-small-text-2 {
+    margin-left: 20px;
+    margin-top: 5px;
+  }
+
+  .image-country-3 img{
+    text-align: center;
+    height: 270px;
+    width: 430px;
+    margin-left: 4px;
+     border-radius: 5px;
+  }
+
+
+
+
+  .image-country-4 img{
+    text-align: center;
+    height: 270px;
+    margin-left: 80px;
+    border-radius: 5px;
+  }
+
+  .image-selected img{
+      text-align: center;
+      height: 740px;
+      margin-left: 20px;
+      border-radius: 5px;
+    }
+
+    .image-on-flow img{
+    text-align: center;
+    height: 270px;
+    margin-left: 20px;
+     border-radius: 5px;
+  }
+
+  div.input-2 {
+      margin-left: 638px;
+    }
+
+    .visa-applications-button-flow {
+  outline: none;
+  margin: 50px 0 80px;
+  color: #0015FF
+}
+
+
+
+.btn-primary-finish-flow {
+  background-color: #0015FF;
+  border-radius: 30px;
+  width: 200px;
+  color: white;
+}
+
+.center-button {
+  text-align: center
+}

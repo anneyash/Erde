@@ -1,12 +1,162 @@
 <div class="col-md-12 form-group visa-applications-form center-text">
   <h2>
-    <strong>Тут ты можешь выбрать страну</strong>
+    <strong>Выбери страну для путешествия</strong>
   </h2>
   <h4>
       <div class="small-text test-text">
-        <small class="text-muted">Давайте начнём с выбора страны для путешествия.  Мы соберём все документы за Вас. <br> Срок подачи визы: 7-14 дней.  Стоимость: 100 евро.</small>
+        <small class="text-muted">Давайте начнём с выбора страны для путешествия <br> Если вы не можете найти нужную страну, напишите нам, мы будем рады вам помочь</small>
       </div>
   </h4>
 </div>
  <br>
   <br>
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <div class="image-country-1">
+          <%= image_tag("photo-1508672019048-805c876b67e2-2.jpeg", :alt => "rss feed") %>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="image-country-2">
+          <%= image_tag("photo-1531219432768-9f540ce91ef3.jpeg", :alt => "rss feed") %>
+      </div>
+    </div>
+  </div>
+
+  <h5>
+      <div class="country-small-text">
+        <small class="text-muted">США</small>
+      </div>
+  </h5>
+
+  <h4>
+    <div class="country-small-text-1">
+    <strong>Нью-Йорк</strong>
+    </div>
+  </h4>
+
+  <h5>
+      <div class="country-small-text-2">
+        <small class="text-muted">Стоимость: 40 € за одну неделю • <br> Вероятность получения: 65%</small>
+      </div>
+  </h5>
+
+
+
+  <div class="country-button">
+      <%= link_to 'Далее', (:country_page),class: "btn btn-primary"%>
+  </div>
+
+
+<br>
+<br>
+<br>
+
+
+  <div class="input">
+  <h5>
+      <div class="country-small-text">
+        <small class="text-muted">Индонезия</small>
+      </div>
+  </h5>
+
+  <h4>
+    <div class="country-small-text-1">
+    <strong>Сурабая</strong>
+    </div>
+  </h4>
+
+  <h5>
+      <div class="country-small-text-2">
+        <small class="text-muted">Стоимость: 60 € за две недели • <br> Вероятность получения: 45%</small>
+      </div>
+  </h5>
+  </div>
+
+  <div class="visa-applications-button-3">
+    <%= link_to 'Выбрать', visa_applications_path(:step => "11"), class: "btn btn-primary-finish-2"%>
+  </div>
+
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="image-country-3">
+            <%= image_tag("photo-1484804959297-65e7c19d7c9f.jpeg", :alt => "rss feed") %>
+        </div>
+      </div>
+      <div class="col">
+        <div class="image-country-4">
+            <%= image_tag("photo-1517760444937-f6397edcbbcd-2.jpeg", :alt => "rss feed") %>
+        </div>
+      </div>
+    </div>
+
+<div class="input-2">
+    <h5>
+        <div class="country-small-text">
+          <small class="text-muted">Швейцария</small>
+        </div>
+    </h5>
+
+    <h4>
+      <div class="country-small-text-1">
+      <strong>Бёрн</strong>
+      </div>
+    </h4>
+
+    <h5>
+        <div class="country-small-text-2"">
+          <small class="text-muted">Стоимость: 35 € за две недели • <br> Вероятность получения: 80%</small>
+        </div>
+    </h5>
+
+    <div class="input-3">
+    <h5>
+        <div class="country-small-text">
+          <small class="text-muted">Мальта</small>
+        </div>
+    </h5>
+
+    <h4>
+      <div class="country-small-text-1">
+      <strong>Валлетта</strong>
+      </div>
+    </h4>
+
+    <h5>
+        <div class="country-small-text-2">
+          <small class="text-muted">Стоимость: 50 € за одну неделю • <br> Вероятность получения: 70%</small>
+        </div>
+    </h5>
+    </div>
+
+    <div class="visa-applications-button-4">
+      <%= link_to 'Выбрать', visa_applications_path(:step => "11"), class: "btn btn-primary-finish-3"%>
+    </div>
+
+    <div class="visa-applications-button-5">
+      <%= link_to 'Выбрать', visa_applications_path(:step => "11"), class: "btn btn-primary-finish-4"%>
+    </div>
+
+
+
+
+
+
+
+    <br>
+    <br>
