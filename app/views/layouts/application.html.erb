@@ -32,7 +32,11 @@
         <a class="nav-link" href="#">Контакты</a>
       </li>
     </ul>
-    <a class="button" href="#">Sign in</a>
+    <% if user_signed_in? %>
+    <%= link_to "Выйти", destroy_user_session_path, method: :delete, class: "button" %>
+    <% else %>
+    <%= link_to "Войти", new_user_session_path, class: "button" %><br />
+    <% end %>
   </div>
 </nav>
 
