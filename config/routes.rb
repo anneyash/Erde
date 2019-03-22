@@ -16,7 +16,7 @@ Rails.application.routes.draw do
   get 'choose_country', to:'layouts#choose_country'
   get 'country_page', to:'layouts#country_page'
 
-  root to: "home#index"
+  root to: "layouts#choose_country"
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
