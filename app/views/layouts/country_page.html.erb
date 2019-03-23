@@ -1,6 +1,9 @@
+<br>
+
+
 <div class="col-md-12 form-group visa-applications-form center-text">
   <h2>
-    <strong>Сурабая, Индонезия</strong>
+    <strong>Лос-Анджелес, Калифорния</strong>
   </h2>
   <h4>
       <div class="small-text test-text">
@@ -8,12 +11,17 @@
       </div>
   </h4>
 </div>
- <br>
-  <br>
 
-  <div class="image-selected center-image">
+
+  <div class="visa-applications-button-flow center-button ">
+    <%= link_to 'Заполнить анкету', visa_application_path(Form.find(1), step: "1"), class: "btn btn-primary greatbtn" %>
+  </div>
+
+  <div class="image-selected">
       <%= image_tag("photo-1484804959297-65e7c19d7c9f.jpeg", :alt => "rss feed") %>
   </div>
+
+
 
   <br>
   <br>
@@ -34,7 +42,7 @@
         <div class="text-2">
 
             <h5>Список необходимых документов</h5>
-          <br>
+
           <h5>
             <small class="text-muted">Паспорт, справка НДФЛ, билеты, подтверждение брони отеля, анкета, документ о личных доходах и справка с работы или места учёбы </small>
           </h5>
@@ -43,7 +51,6 @@
           <br>
 
           <h5>Срок подачи документов</h5>
-        <br>
         <h5>
           <small class="text-muted">За две недели до выезда</small>
         </h5>
@@ -52,7 +59,7 @@
 
 
         <h5>Готовность визы</h5>
-      <br>
+
       <h5>
         <small class="text-muted">Три или четвыре недели с момента подачи документов</small>
       </h5>
@@ -62,11 +69,6 @@
         </div>
       </div>
     </div>
-
-    <div class="visa-applications-button-flow center-button">
-      <%= link_to 'Заполнить анкету', visa_application_path(Form.find(1), step: "1"), class: "btn btn-primary" %>
-    </div>
-
 
 <br>
 
@@ -83,6 +85,13 @@
             <h4>
               <strong>Другие места, которые мы любим</strong>
             </h4>
+
+          <br>
+          <h5>
+            <small class="text-muted">Город в США на юге штата Калифорния, находящийся <br> на берегу Тихого океана. Крупнейший по численности <br> населения в штате и второй — в стране. Город является <br> административным центром одноимённого округа,<br> а также центром Большого Лос-Анджелеса<br> — агломерации с населением более 17 млн человек.<br> <br>Жителей Лос-Анджелеса называют «Angelenos». <br>Лос-Анджелес является одним из крупнейших мировых <br>культурных, научных, экономических, образовательных <br>центров. Также город — один из крупнейших мировых <br>центров индустрии развлечений в сфере кино, театра,<br> музыки, литературы и телевидения. <br><br> На берегу океана шмакиана хочу серфить.</small>
+          </h5>
+          <br>
+          <br>
           </div>
         </div>
 
@@ -96,21 +105,21 @@
       <div class="container">
         <div class="row">
           <div class="col">
-        <div class="input-2">
+        <div class="inputtt">
             <h5>
-                <div class="country-small-text">
+                <div class="small-text-1 test-text_2">
                   <small class="text-muted">Швейцария</small>
                 </div>
             </h5>
 
             <h4>
-              <div class="country-small-text-2">
+              <div class="small-text-1-2 test-text_2">
               <strong>Бёрн</strong>
               </div>
             </h4>
 
             <h5>
-                <div class="country-small-text-2">
+                <div class="small-text-1-2-3 test-text">
                   <small class="text-muted">Стоимость: 35 € за две недели • <br> Вероятность получения: 80%</small>
                 </div>
             </h5>
@@ -123,8 +132,5 @@
             <br>
             <br>
 
-
-
             </div>
     </div>
-</div>

@@ -13,9 +13,11 @@
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <nav class="navbar navbar-light bg-light">
-    <h4>
-      <strong>Erde</strong>
-    </h4>
+    <div style="color: #0015FF; margin-right: 40px; margin-left: 25px;">
+      <h4>
+        <strong>Erde</strong>
+      </h4>
+    </div>
   </nav>
   <div class="collapse navbar-collapse" id="navbarText">
     <ul class="navbar-nav mr-auto">
@@ -23,20 +25,21 @@
         <a class="nav-link" href="#">Получить визу<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Мои документы</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Мои визы</a>
+        <a class="nav-link" href="#">Личный кабинет</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Контакты</a>
       </li>
     </ul>
-    <% if user_signed_in? %>
-    <%= link_to "Выйти", destroy_user_session_path, method: :delete, class: "button" %>
-    <% else %>
-    <%= link_to "Войти", new_user_session_path, class: "button" %><br />
-    <% end %>
+
+    <div style="margin-right: 30px;">
+      <% if user_signed_in? %>
+      <%= link_to "Выйти", destroy_user_session_path, method: :delete, class: "button" %>
+      <% else %>
+      <%= link_to "Войти", new_user_session_path, class: "button" %><br />
+      <% end %>
+    </div>
+
   </div>
 </nav>
 
@@ -57,5 +60,139 @@
   <%= yield %>
   </div>
 </div>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+<hr align="center" width="100%" size="3" color="#E2E2E2" />
+
+<!-- Footer -->
+<footer class="page-footer font-small">
+
+
+
+
+
+          <!-- Grid column -->
+          <div class="col-md-6 col-lg-7 text-center text-md-right background-color: #F2F2F2;">
+
+            <!-- Facebook -->
+            <a class="fb-ic">
+              <i class="fab fa-facebook-f white-text mr-4"> </i>
+            </a>
+            <!-- Twitter -->
+            <a class="tw-ic">
+              <i class="fab fa-twitter white-text mr-4"> </i>
+            </a>
+            <!-- Google +-->
+            <a class="gplus-ic">
+              <i class="fab fa-google-plus-g white-text mr-4"> </i>
+            </a>
+            <!--Linkedin -->
+            <a class="li-ic">
+              <i class="fab fa-linkedin-in white-text mr-4"> </i>
+            </a>
+            <!--Instagram-->
+            <a class="ins-ic">
+              <i class="fab fa-instagram white-text"> </i>
+            </a>
+
+          </div>
+
+
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left mt-5">
+
+      <!-- Grid row -->
+      <div class="row mt-3">
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+          <!-- Content -->
+          <h5 class="text-uppercase font-weight-bold">Erde</h5>
+          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>Мы супер крутые, поставьте десять. Мы не спали ночами <br> и не кушали круассаны. <br> Хотим к своим матушкам, помогите</p>
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+          <!-- Links -->
+          <h6 class="text-uppercase font-weight-bold">Возможности</h6>
+          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>
+            <a href="#!">Заполнить анкету</a>
+          </p>
+          <p>
+            <a href="#!">Написать нам</a>
+          </p>
+          <p>
+            <a href="#!">Поставить 10</a>
+          </p>
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+          <!-- Links -->
+          <h6 class="text-uppercase font-weight-bold">Ссылки</h6>
+          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>
+            <a href="#!">Ваш аккаунт</a>
+          </p>
+          <p>
+            <a href="#!">Стать частью</a>
+          </p>
+          <p>
+            <a href="#!">Позвонить</a>
+          </p>
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+          <!-- Links -->
+          <h6 class="text-uppercase font-weight-bold">Контакты</h6>
+          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>Москва, Пионерская, 12</p>
+          <p>erde.com</p>
+          <p>+79035407829</p>
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row -->
+
+    </div>
+    <!-- Footer Links -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2019 Copyright:
+      <a href="https://mdbootstrap.com/education/bootstrap/"> Erde.com</a>
+    </div>
+    <!-- Copyright -->
+
+  </footer>
+
+  <br>
+  <!-- Footer -->
 </body>
 </html>

@@ -160,7 +160,7 @@ div.country-small-text-2 {
   .image-selected img{
       text-align: center;
       height: 740px;
-      margin-left: 20px;
+      margin-left: 25px;
       border-radius: 5px;
     }
 
@@ -192,4 +192,18 @@ div.country-small-text-2 {
 
 .center-button {
   text-align: center
+}
+
+
+
+.greatbtn:hover {
+  box-shadow: none !important;
+  background: #0113e2 !important;
+  outline: 0 !important;
+  border-color: #0113e2 !important;
+}
+
+div.inputtt {
+  margin-left: 659px;
+  margin-top: -170px;
 }
