@@ -110,14 +110,11 @@ input[type="radio"]:checked + label:before {
   background-image: url("2.png");
 }
 
-
- // все пошло не так
-
- .image-country-1 img{
+.image-country-1 img{
   text-align: center;
   height: 270px;
   margin-left: 20px;
-   border-radius: 5px;
+  border-radius: 5px;
 }
 
 .cust img{
@@ -125,71 +122,65 @@ input[type="radio"]:checked + label:before {
   margin-left: -180px;
   margin-top: -60px;
   margin-bottom: -313px;
-
 }
 
 .image-country-2 img{
-    text-align: center;
-    height: 270px;
-    margin-left: 80px;
-    border-radius: 5px;
-  }
+  text-align: center;
+  height: 270px;
+  margin-left: 80px;
+  border-radius: 5px;
+}
 
-  div.country-small-text {
-    margin-left: 20px;
-    margin-top: 20px;
-  }
+div.country-small-text {
+  margin-left: 20px;
+  margin-top: 20px;
+}
 
-  div.country-small-text-1 {
-    margin-left: 20px;
-    margin-top: 5px;
-  }
+div.country-small-text-1 {
+  margin-left: 20px;
+  margin-top: 5px;
+}
 
 
 div.country-small-text-2 {
-    margin-left: 20px;
-    margin-top: 5px;
-  }
+  margin-left: 20px;
+  margin-top: 5px;
+}
 
-  .image-country-3 img{
-    text-align: center;
-    height: 270px;
-    width: 430px;
-    margin-left: 4px;
-     border-radius: 5px;
-  }
+.image-country-3 img{
+  text-align: center;
+  height: 270px;
+  width: 430px;
+  margin-left: 4px;
+  border-radius: 5px;
+}
 
+.image-country-4 img{
+  text-align: center;
+  height: 270px;
+  margin-left: 80px;
+  border-radius: 5px;
+}
 
+.image-selected img{
+  text-align: center;
+  height: 740px;
+  margin-left: 25px;
+  border-radius: 5px;
+}
 
+.image-on-flow img{
+  text-align: center;
+  height: 270px;
+  margin-left: 20px;
+  border-radius: 5px;
+}
 
+div.input-2 {
+  margin-left: 638px;
+}
 
-
-  .image-country-4 img{
-    text-align: center;
-    height: 270px;
-    margin-left: 80px;
-    border-radius: 5px;
-  }
-
-  .image-selected img{
-      text-align: center;
-      height: 740px;
-      margin-left: 25px;
-      border-radius: 5px;
-    }
-
-    .image-on-flow img{
-    text-align: center;
-    height: 270px;
-    margin-left: 20px;
-     border-radius: 5px;
-  }
-
-  div.input-2 {
-      margin-left: 638px;
-    }
-
-    .visa-applications-button-flow {
+.visa-applications-button-flow {
   outline: none;
   margin: 50px 0 80px;
   color: #0015FF
@@ -249,41 +240,40 @@ div.input-2 {
 }
 
 div.input-3 {
-    margin-top: 30px;
-    margin-left: -16px;
-  }
+  margin-top: 30px;
+  margin-left: -16px;
+}
 
 div.input-4 {
-    margin-top: -136px;
-    margin-left: 616px;
-  }
+  margin-top: -136px;
+  margin-left: 616px;
+}
 
 
-  .btn-primary-finish-4 {
-    width: 200px;
-    margin-left: 8px;
-    margin-top: -246px;
-  }
+.btn-primary-finish-4 {
+  width: 200px;
+  margin-left: 8px;
+  margin-top: -246px;
+}
 
-  div.photo-container {
-    display: inline-flex;
-    margin-left: -34px;
-    margin-top: 30px;
+div.photo-container {
+  display: inline-flex;
+  margin-left: -34px;
+  margin-top: 30px;
+}
 
-  }
 
-
- .image-country-1 img{
-text-align: center;
-height: 270px;
-margin-left: 20px;
-border-radius: 5px;
+.image-country-1 img{
+  text-align: center;
+  height: 270px;
+  margin-left: 20px;
+  border-radius: 5px;
 }
 
 div.name-1{
-margin-left: 20px;
-margin-top: 35px;
-text-align: start;
+  margin-left: 20px;
+  margin-top: 35px;
+  text-align: start;
 }
 
 div.text-container {
@@ -295,18 +285,18 @@ div.text-container {
 
 
 
- .image-country-1 img{
-text-align: center;
-height: 270px;
-width: 410px;
-margin-left: 20px;
-border-radius: 5px;
+.image-country-1 img{
+  text-align: center;
+  height: 270px;
+  width: 410px;
+  margin-left: 20px;
+  border-radius: 5px;
 }
 
 
 
 .text-muted {
-font-size: 15px;
+  font-size: 15px;
 }
 
 
@@ -334,9 +324,9 @@ font-size: 15px;
 
 
 .✈️-2 {
-    margin-top: -47px;
-    text-align: center;
-    font-size: 30px;
+  margin-top: -47px;
+  text-align: center;
+  font-size: 30px;
 }
 
 
@@ -352,18 +342,40 @@ div.photo-container-2 {
   display: inline-flex;
   margin-top: 30px;
   margin-left: -90px;
-  }
+}
 
-  .image-country-check img {
-text-align: center;
-height: 270px;
-margin-left: 20px;
-border-radius: 5px;
+.image-country-check img {
+  text-align: center;
+  height: 270px;
+  margin-left: 20px;
+  border-radius: 5px;
 }
 
 div.row-2 {
-     display: flex;
-     flex-wrap: wrap;
-     margin-right: -75px;
-    margin-left: -70px;
- }
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -75px;
+  margin-left: -70px;
+}
+
+.finbtn {
+  color: white;
+  margin: 30px 0 30px;
+  background-color: #0015FF;
+  border-radius: 30px;
+  border-color: #0015FF;
+  width: 250px;
+  height: 40px;
+}
+
+.finbtn:hover {
+  color: white;
+  box-shadow: none !important;
+  background: #0113e2 !important;
+  outline: 0 !important;
+  border-color: #0113e2 !important;
+}
+
+.landingimage {
+  margin-left: -165px;
+}

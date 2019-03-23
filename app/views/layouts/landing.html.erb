@@ -1,16 +1,7 @@
-<div class="col-md-12 form-group visa-applications-form center-text">
-  <h2>
-    <strong>Сурабая, Индонезия</strong>
-  </h2>
-  <h4>
-      <div class="small-text test-text">
-        <small class="text-muted">Давайте начнём с выбора страны для путешествия.  Мы соберём все документы за Вас. <br> Срок подачи визы: 7-14 дней.  Стоимость: 100 евро.</small>
-      </div>
-  </h4>
+<div class="landingimage">
+  <%= image_tag("landing.jpg", :alt => "rss feed") %>
 </div>
- <br>
-  <br>
 
-  <div class="visa-applications-button">
-    <%= link_to 'Далее', (:choose_country),class: "country-button"%>
-  </div>
+<div class="visa-applications-button-flow center-button">
+  <%= link_to 'Получить визу', (:choose_country), class: "btn finbtn" %>
+</div>
