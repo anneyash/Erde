@@ -15,6 +15,9 @@ Rails.application.routes.draw do
   get 'landing', to:'layouts#landing'
   get 'choose_country', to:'layouts#choose_country'
   get 'country_page', to:'layouts#country_page'
+  get 'country_page_2', to:'layouts#country_page_2'
+  get 'country_page_3', to:'layouts#country_page_3'
+  get 'country_page_4', to:'layouts#country_page_4'
   get 'account', to:'layouts#account'
 
   root to: "layouts#choose_country"
