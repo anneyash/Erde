@@ -14,6 +14,10 @@ div.progress-bar {
   margin: 50px 0;
 }
 
+.visa-applications-form-reg {
+  margin: 50px 0px 40px 24px;
+}
+
 .visa-applications-form-2 {
   margin: 50px 0 0 -90px;
 }
@@ -120,7 +124,7 @@ input[type="radio"]:checked + label:before {
 .cust img{
   height: 96px;
   margin-left: -180px;
-  margin-top: -60px;
+  margin-top: -70px;
   margin-bottom: -313px;
 }
 
@@ -184,6 +188,13 @@ div.input-2 {
   outline: none;
   margin: 50px 0 80px;
   color: #0015FF
+}
+
+.button-registration {
+  outline: none;
+  color: #0015FF;
+  margin: -30px 0 80px;
+
 }
 
 
@@ -378,23 +389,125 @@ div.row-2 {
 
 .landingimage {
   margin-left: -165px;
-  width: 50%;
 }
 
 .registrationimg {
-  margin-top: -350px;
-  margin-left: 500px;
+    height: 400px;
+    margin-top: -50px;
+    margin-left: -130px;
+    margin-bottom: -300px;
 }
 
-.autofocus {
+.registrationimg img {
+  height: 400px;
+  margin-top: -420px;
+  margin-left: 520px;
+  margin-bottom: 300px;
+}
+
+.small-text-reg {
+  margin: 10px 0 15px;
+}
+
+.text-muted-reg {
+  font-size: 15px;
+  margin-top: 20px;
+  color: #757575;
+}
+
+.text-muted-email {
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+
+.text-in {
+  font-size: 13px;
+  color: #757575;
+  margin-left: 16px;
+  margin-top: 200px;
+
+}
+
+.hr_1, {
+  width: 10%;
+  margin-top: -60px;
+}
+
+.hr_2 {
+  width: 10%;
+  margin-top: -17px;
+  margin-left: 260px;
+}
+
+.password_confirmation {
+  margin-top: 10px;
+}
+
+.password_confirmation input {
+    width: 200px;
+}
+
+.minimum_password_length {
+  margin-top: -29px;
+  margin-left: 78px;
+  font-size: 14px;
+  font-style: normal;
+  color: #757575;
+}
+
+.input-new-password {
+  margin-left: -77px;
+    width: 200px;
+
+}
+
+
+.input-new-password input {
+  width: 200px;
+}
+
+.input-email input {
+    width: 200px;
+}
+
+.input-email {
+  margin-top: 20px;
+}
+
+
+.registration_page {
+  margin-left: 40px;
+}
+
+
+.button-registration button {
   background-color: blue;
 }
 
-.imglanding {
-  text-align: center;
-  height: 1020px;
-  margin-left: -180px;
-  border-radius: 0;
+.link_registration {
+  margin-top: -110px;
+}
+
+.link_registration-2 {
+  margin-top: -100px;
+}
+
+.link_registration a {
+  color: #0015ff;
+}
+
+.link_registration-2 a {
+  color: #0015ff;
+}
+
+.remember_me label {
+  font-style: 'Helvetica';
+  margin-left: 5px;
+}
+
+.navbar-sign_in a {
+  color: #0015ff;
 }
 
 .center-image img {
