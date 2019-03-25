@@ -32,14 +32,15 @@
       </li>
     </ul>
 
-    <div style="margin-right: 30px;">
-      <% if user_signed_in? %>
-      <%= link_to "Выйти", destroy_user_session_path, method: :delete, class: "button" %>
-      <% else %>
-      <%= link_to "Войти", new_user_session_path, class: "button" %><br />
-      <% end %>
+    <div style="color: #0015FF;">
+      <div style="margin-right: 30px;">
+        <% if user_signed_in? %>
+        <%= link_to "Выйти", destroy_user_session_path, method: :delete, class: "button" %>
+        <% else %>
+        <%= link_to "Войти", new_user_session_path, class: "button" %><br />
+        <% end %>
+      </div>
     </div>
-
   </div>
 </nav>
 

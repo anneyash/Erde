@@ -378,9 +378,27 @@ div.row-2 {
 
 .landingimage {
   margin-left: -165px;
+  width: 50%;
 }
 
 .registrationimg {
   margin-top: -350px;
   margin-left: 500px;
+}
+
+.autofocus {
+  background-color: blue;
+}
+
+.imglanding {
+  text-align: center;
+  height: 1020px;
+  margin-left: -180px;
+  border-radius: 0;
+}
+
+.center-image img {
+  margin-left: -165px;
+  height: 5800px;
+  width: 1440px;
 }
