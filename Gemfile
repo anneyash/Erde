@@ -67,3 +67,11 @@ gem 'activeadmin'
 gem 'faker'
 gem 'bootstrap-datepicker-rails'
 gem 'devise'
+
+group :production do
+  gem "pg"
+end
+
+group :development, :test do
+  gem "sqlite3"
+end
