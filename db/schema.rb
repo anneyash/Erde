@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_03_22_130259) do
+ActiveRecord::Schema.define(version: 2019_06_03_112312) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -29,6 +29,18 @@ ActiveRecord::Schema.define(version: 2019_03_22_130259) do
     t.index ["resource_type", "resource_id"], name: "index_active_admin_comments_on_resource_type_and_resource_id"
   end
 
+  create_table "admins", force: :cascade do |t|
+    t.string "email", default: "", null: false
+    t.string "encrypted_password", default: "", null: false
+    t.string "reset_password_token"
+    t.datetime "reset_password_sent_at"
+    t.datetime "remember_created_at"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["email"], name: "index_admins_on_email", unique: true
+    t.index ["reset_password_token"], name: "index_admins_on_reset_password_token", unique: true
+  end
+
   create_table "answers", force: :cascade do |t|
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -44,6 +56,16 @@ ActiveRecord::Schema.define(version: 2019_03_22_130259) do
     t.datetime "updated_at", null: false
   end
 
+  create_table "declarations", force: :cascade do |t|
+    t.string "title"
+    t.string "body"
+    t.integer "step"
+    t.bigint "form_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["form_id"], name: "index_declarations_on_form_id"
+  end
+
   create_table "documents", force: :cascade do |t|
     t.string "title"
     t.text "body"
@@ -55,6 +77,7 @@ ActiveRecord::Schema.define(version: 2019_03_22_130259) do
     t.string "title"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "description"
   end
 
   create_table "landings", force: :cascade do |t|
@@ -64,26 +87,9 @@ ActiveRecord::Schema.define(version: 2019_03_22_130259) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "models", force: :cascade do |t|
-    t.string "email", default: "", null: false
-    t.string "encrypted_password", default: "", null: false
-    t.string "reset_password_token"
-    t.datetime "reset_password_sent_at"
-    t.datetime "remember_created_at"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.index ["email"], name: "index_models_on_email", unique: true
-    t.index ["reset_password_token"], name: "index_models_on_reset_password_token", unique: true
-  end
-
   create_table "navbars", force: :cascade do |t|
     t.string "title"
     t.text "body"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  create_table "pages", force: :cascade do |t|
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -113,24 +119,8 @@ ActiveRecord::Schema.define(version: 2019_03_22_130259) do
     t.integer "step"
     t.integer "ordering"
     t.integer "form_id"
-    t.text "body"
     t.boolean "has_optional_answer"
     t.boolean "is_group_view"
-  end
-
-  create_table "real_visa_application_questions", force: :cascade do |t|
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  create_table "real_visa_applications", force: :cascade do |t|
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  create_table "user_visa_applications", force: :cascade do |t|
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
   end
 
   create_table "users", force: :cascade do |t|
@@ -162,4 +152,5 @@ ActiveRecord::Schema.define(version: 2019_03_22_130259) do
   end
 
   add_foreign_key "answers", "questions"
+  add_foreign_key "declarations", "forms"
 end

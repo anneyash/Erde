@@ -1,6 +1,16 @@
 Rails.application.routes.draw do
   devise_for :users
-  ActiveAdmin.routes(self)
+  devise_for :admins
+  # ActiveAdmin.routes(self)
+
+  namespace :admin do
+    resources :forms do
+      resources :questions, controller: 'forms/questions'
+      resource :declaration, controller: 'forms/declarations', on: :edit
+    end
+    get 'created', to: 'created_forms#index'
+  end
+  get '/admin', to: 'admin/forms#index'
 
   resources :visa_applications do
     collection do
